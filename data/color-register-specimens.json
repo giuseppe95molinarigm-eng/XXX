@@ -1,0 +1,71 @@
+{
+ "_note": "Ten specimen entries for approval before the other 185 are written. Plain language, reader's point of view (left = the side nearest the flagpole as you look at the flag). Colors in SMALL CAPS. Recurring pattern: 1) the overall shape or background, 2) stripes or blocks in reading order, 3) the emblem, from largest part to smallest.",
+ "pattern": [
+  "Background or overall layout first.",
+  "Then stripes or blocks, in the order you read them: left to right, top to bottom.",
+  "Then the emblem, from the biggest part to the smallest.",
+  "Directions are always as you look at the page: left, right, top, bottom, middle."
+ ],
+ "entries": [
+  {
+   "country": "Japan",
+   "why": "The simplest case: one shape on a plain field. Sets the shortest entry length.",
+   "text": "A <c>white</c> flag with one <c>red</c> circle in the exact middle.",
+   "check": "Disc centered (Act on National Flag and Anthem, 1999). Verified."
+  },
+  {
+   "country": "Egypt",
+   "why": "Stripes plus an emblem inside a stripe; the emblem has its own small stripes, the opposite way round.",
+   "text": "Three equal stripes, top to bottom: <c>red</c>, <c>white</c>, <c>black</c>. In the middle of the white stripe stands a <c>gold</c> eagle looking to your left. On its chest is a small shield with upright stripes, left to right: <c>red</c>, <c>white</c>, <c>black</c>. Its claws hold a <c>gold</c> ribbon with the country's name in Arabic.",
+   "check": "Eagle faces viewer's left; shield tierced per pale gules-argent-sable (red at viewer's left); Kufic scroll. Checked against coat of arms description; confirm on the 1984 law drawing."
+  },
+  {
+   "country": "United States",
+   "why": "Counting: 13 stripes and 50 stars in alternating rows. Tests numbers in plain language.",
+   "text": "Thirteen stripes, top to bottom, starting and ending with <c>red</c>: seven <c>red</c> and six <c>white</c>, taking turns. In the top left corner, a <c>blue</c> rectangle as tall as the top seven stripes, holding 50 small <c>white</c> stars in nine rows of six and five, taking turns.",
+   "check": "Executive Order 10834 proportions. Rows 6-5-6-5-6-5-6-5-6. Verified."
+  },
+  {
+   "country": "Brazil",
+   "why": "Shapes nested inside each other, a curved band with lettering, and stars of different sizes.",
+   "text": "<c>Green</c>, with a large <c>yellow</c> diamond. Inside the diamond, a <c>blue</c> circle crossed by a curved <c>white</c> band, higher on the left than on the right, with the words ORDEM E PROGRESSO in <c>green</c>. Twenty-seven small <c>white</c> stars: one above the band, all the others below it.",
+   "check": "Law 5,700/1971 as amended (27 stars). One star (Spica) above the band. Verified against construction SVG."
+  },
+  {
+   "country": "Belize",
+   "why": "The most detailed flag in the book: a full coat of arms with people. Tests the upper limit of entry length.",
+   "text": "<c>Royal blue</c>, with a narrow <c>red</c> stripe along the top and the bottom. In the middle, a <c>white</c> circle ringed by 50 <c>green</c> leaves. Inside: a shield with tools in its two upper parts and, below, a sailing ship on a <c>dark blue</c> sea under a <c>light blue</c> sky. Two shirtless men in <c>white</c> trousers stand beside it, the left one holding an axe, the right one a paddle. A <c>green</c> mahogany tree rises above, and a scroll below reads SUB UMBRA FLOREO.",
+   "check": "Belize MFA / coat of arms descriptions. Skin tones and tool colors deliberately not prescribed. Confirm shield field colors before print."
+  },
+  {
+   "country": "Nepal",
+   "why": "The only flag that is not a rectangle. Tests describing shape before color.",
+   "text": "Not a rectangle: two triangles stacked one on the other, the top one smaller, both pointing to your right. <c>Crimson</c> inside, with a <c>blue</c> border all the way around. In the top triangle, a <c>white</c> crescent moon lying on its back, with eight short rays rising from it; in the bottom triangle, a <c>white</c> sun with twelve points.",
+   "check": "Constitution of Nepal, Schedule 1. Upper emblem: crescent with 8 visible rays; lower: 12-pointed sun. Verified against construction SVG."
+  },
+  {
+   "country": "Bhutan",
+   "why": "A diagonal division plus a large, intricate animal crossing the dividing line.",
+   "text": "Split by a straight line from the bottom left corner to the top right corner: the top half <c>yellow</c>, the bottom half <c>orange</c>. Across the line lies a <c>white</c> dragon facing right, holding a jewel in each claw.",
+   "check": "Dragon faces away from the hoist; jewels (norbu) in claws. Verified against construction SVG."
+  },
+  {
+   "country": "South Africa",
+   "why": "Six colors, thin edging bands and a sideways Y. Tests describing narrow borders without flag terms.",
+   "text": "A <c>green</c> band shaped like a Y lying on its side: its two arms start at the left corners, meet in the middle and run on as one band to the right edge. The Y has thin <c>white</c> edges on its outer sides and a thin <c>gold</c> edge on the inside. Inside the Y, on the left, a <c>black</c> triangle. Above the Y, <c>red</c>; below it, <c>blue</c>.",
+   "check": "Verified against construction SVG (white borders toward red and blue; gold toward the black triangle)."
+  },
+  {
+   "country": "Sri Lanka",
+   "why": "A frame that also divides the flag, two panels, and a figure with small corner details.",
+   "text": "A <c>gold</c> border runs around the flag and also splits it into two parts. On the left, two upright stripes: <c>green</c>, then <c>orange</c>. On the right, a large <c>maroon</c> panel with a <c>gold</c> lion facing left, a sword raised in its front paw, and a <c>gold</c> leaf in each corner.",
+   "check": "Lion faces the hoist; four bo leaves. Verified against construction SVG."
+  },
+  {
+   "country": "Saudi Arabia",
+   "why": "An inscription. Tests how we describe writing the reader should not alter.",
+   "text": "<c>Green</c>. Across the upper middle runs a line of <c>white</c> Arabic writing, the declaration of faith; beneath it lies a <c>white</c> sword pointing to your left.",
+   "check": "Sword points toward the hoist. EDITORIAL RISK: the flag carries the Shahada; Saudi Arabia has objected to the flag's use on merchandise. Decide whether the outline page invites coloring of the inscription or keeps it pre-printed solid."
+  }
+ ]
+}

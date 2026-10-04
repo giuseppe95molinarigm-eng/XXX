@@ -1,0 +1,43 @@
+{
+ "model": "google/nano-banana-pro (Replicate)",
+ "resolution": "2K",
+ "style_reference": "italy-colosseum.png (first generation, prompt below) passed as image_input for the other five",
+ "generations": {
+  "italy-colosseum": {
+   "prompt": "Black and white line art illustration for a premium adult coloring book: the Colosseum in Rome, three-quarter view. Clean, confident ink outlines of uniform medium weight, no shading, no hatching, no gray, no fills, pure white background, closed shapes large enough to color, controlled architectural detail, elegant vintage engraving-inspired but simplified, no text, no border, isolated subject.",
+   "aspect_ratio": "4:3",
+   "uses_style_reference": false,
+   "kept_file": "test_nbp.png"
+  },
+  "japan-fuji-chureito": {
+   "prompt": "Use the attached image ONLY as a style reference: match its line weight, its uniform black outline, its level of detail and its clean coloring-book drawing style exactly. Do not copy its subject. Draw a new black and white line art illustration for a premium adult coloring book: clean confident ink outlines of uniform medium weight, every shape closed and large enough to color with a colored pencil, no shading, no hatching, no stippling, no gray, no solid black fills, pure white background, no text, no border, the whole subject fully inside the frame with generous white margin on all sides, nothing cropped. Subject: Mount Fuji with a simple snow cap, the five-story Chureito pagoda (exactly five roofs, with its spire) standing complete on a hillside in the left foreground, a cherry blossom branch entering from the top right corner, two simple stylized clouds.",
+   "aspect_ratio": "4:3",
+   "uses_style_reference": true,
+   "kept_file": "japan_v2.png"
+  },
+  "usa-statue-of-liberty": {
+   "prompt": "Use the attached image ONLY as a style reference: match its line weight, its uniform black outline, its level of detail and its clean coloring-book drawing style exactly. Do not copy its subject. Draw a new black and white line art illustration for a premium adult coloring book: clean confident ink outlines of uniform medium weight, every shape closed and large enough to color with a colored pencil, no shading, no hatching, no stippling, no gray, no solid black fills, pure white background, no text, no border, the whole subject fully inside the frame with generous white margin on all sides, nothing cropped. Subject: the Statue of Liberty in New York, the full statue on its star-shaped fort base and pedestal, torch raised in the right hand, tablet held in the left arm, crown with seven rays, a calm water line and a few simple waves at the base; statue placed in the center.",
+   "aspect_ratio": "4:3",
+   "uses_style_reference": true,
+   "kept_file": "usa_v2.png"
+  },
+  "brazil-sugarloaf": {
+   "prompt": "Use the attached image ONLY as a style reference: match its line weight, its uniform black outline, its level of detail and its clean coloring-book drawing style exactly. Do not copy its subject. Draw a new black and white line art illustration for a premium adult coloring book: clean confident ink outlines of uniform medium weight, every shape closed and large enough to color with a colored pencil, no shading, no hatching, no stippling, no gray, no solid black fills, pure white background, no text, no border, the whole subject fully inside the frame with generous white margin on all sides, nothing cropped. Subject: Sugarloaf Mountain (Pao de Acucar) in Rio de Janeiro with the lower Urca hill beside it, the cable car line with one cable car, Guanabara Bay with three small sailboats, a few palm trees on the shore in the foreground.",
+   "aspect_ratio": "4:3",
+   "uses_style_reference": true,
+   "kept_file": "brazil_v2.png"
+  },
+  "egypt-giza": {
+   "prompt": "Use the attached image ONLY as a style reference: match its line weight, its uniform black outline, its level of detail and its clean coloring-book drawing style exactly. Do not copy its subject. Draw a new black and white line art illustration for a premium adult coloring book: clean confident ink outlines of uniform medium weight, every shape closed and large enough to color with a colored pencil, no shading, no hatching, no stippling, no gray, no solid black fills, pure white background, no text, no border, the whole subject fully inside the frame with generous white margin on all sides, nothing cropped. Subject: the three Pyramids of Giza with the Great Sphinx in the foreground, seen from the south-east, a low desert horizon with gentle dunes, sparse stone course lines only.",
+   "aspect_ratio": "4:3",
+   "uses_style_reference": true,
+   "kept_file": "egypt_v2.png"
+  },
+  "australia-opera-house": {
+   "prompt": "Use the attached image ONLY as a style reference: match its line weight, its uniform black outline, its level of detail and its clean coloring-book drawing style exactly. Do not copy its subject. Draw a new black and white line art illustration for a premium adult coloring book: clean confident ink outlines of uniform medium weight, every shape closed and large enough to color with a colored pencil, no shading, no hatching, no stippling, no gray, no solid black fills, pure white background, no text, no border, the whole subject fully inside the frame with generous white margin on all sides, nothing cropped. Subject: the Sydney Opera House seen from the water at a three-quarter angle, its stacked shell roofs drawn as large clean shapes with only three or four chevron tile lines per shell (keep the shells mostly open for coloring), the podium and steps simplified, a few gentle water lines, and the Sydney Harbour Bridge small in the background on the left. The whole building must sit inside the frame with clear white margin left and right.",
+   "aspect_ratio": "4:3",
+   "uses_style_reference": true,
+   "kept_file": "australia_v3.png"
+  }
+ }
+}

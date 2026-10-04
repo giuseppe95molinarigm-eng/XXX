@@ -1,0 +1,102 @@
+/* THE WORLD: Countries & Flags. Interior page system (Phase 1 proposal).
+   Units are millimetres/points so the geometry maps 1:1 onto an InDesign rebuild.
+   Interior prints in ONE colour (black). The cream background is a paper simulation
+   for screen previews only and is switched off with body.print. */
+
+@font-face { font-family: "EB Garamond"; src: url("../assets/fonts/EBGaramond-VF.ttf"); font-weight: 400 800; }
+@font-face { font-family: "EB Garamond"; src: url("../assets/fonts/EBGaramond-Italic-VF.ttf"); font-weight: 400 800; font-style: italic; }
+@font-face { font-family: "Cormorant Garamond"; src: url("../assets/fonts/CormorantGaramond-VF.ttf"); font-weight: 300 700; }
+@font-face { font-family: "Cormorant Garamond"; src: url("../assets/fonts/CormorantGaramond-Italic-VF.ttf"); font-weight: 300 700; font-style: italic; }
+@font-face { font-family: "Noto Serif JP"; src: url("../assets/fonts/NotoSerifJP-subset-VF.ttf"); font-weight: 200 900; }
+@font-face { font-family: "Noto Naskh Arabic"; src: url("../assets/fonts/NotoNaskhArabic-VF.ttf"); font-weight: 400 700; }
+
+:root {
+  --ink: #000;
+  --paper: #f5efe2;          /* screen simulation of 100 gsm cream uncoated */
+  --hair: 0.25pt;
+  --rule: 0.5pt;
+}
+@page { size: 210mm 297mm; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #d9d4ca; }
+body.print { background: #fff; }
+body { font-family: "EB Garamond", serif; color: var(--ink); font-variant-numeric: lining-nums; }
+
+.page { width: 210mm; height: 297mm; position: relative; overflow: hidden; background: var(--paper);
+        page-break-after: always; break-after: page; margin: 0 auto; }
+body.print .page { background: #fff; }
+.screen-gap .page { margin-bottom: 8mm; }
+
+/* live area: inner margin 20 mm (binding), outer 14, top 14, bottom 16 */
+.live { position: absolute; top: 14mm; height: 267mm; width: 176mm; }
+.recto .live { left: 20mm; }
+.verso .live { left: 14mm; }
+.abs { position: absolute; }
+
+.label { font-size: 7pt; letter-spacing: .16em; text-transform: uppercase; font-weight: 500; line-height: 1; }
+.continent { top: 0; left: 0; display: flex; align-items: center; gap: 1.6mm; }
+.continent svg { width: 2.6mm; height: 3.4mm; }
+.country-name { top: 3.5mm; left: -0.6mm; font-family: "Cormorant Garamond", serif; font-weight: 600;
+                font-size: 46pt; line-height: 1; letter-spacing: .02em; text-transform: uppercase; white-space: nowrap; }
+.local { top: 22.5mm; left: 0; display: flex; align-items: baseline; gap: 3mm; white-space: nowrap; }
+.local .native { font-size: 17pt; line-height: 1.2; }
+.local .native.jp { font-family: "Noto Serif JP", serif; font-weight: 500; }
+.local .native.ar { font-family: "Noto Naskh Arabic", serif; font-size: 19pt; }
+.local .native.latin { font-family: "EB Garamond", serif; font-style: italic; font-size: 17pt; }
+.local .translit, .local .formal { font-style: italic; font-size: 13pt; }
+.head-rule { top: 34.5mm; left: 0; width: 176mm; border-top: var(--hair) solid var(--ink); }
+
+/* left column */
+.flag-label { top: 40mm; left: 0; }
+.flag { top: 44.5mm; left: 0; }
+.flag svg { display: block; width: 100%; height: 100%; }
+.dots { left: 0; display: flex; gap: 3.2mm; }
+.dot { display: flex; flex-direction: column; align-items: center; gap: 1.1mm; width: 11mm; }
+.dot i { width: 5.6mm; height: 5.6mm; border: 0.6pt solid var(--ink); border-radius: 50%; display: block; }
+.dot span { font-size: 5.6pt; letter-spacing: .08em; text-transform: uppercase; }
+.dot-arrow { align-self: flex-start; margin-top: 1.6mm; font-size: 7pt; }
+.register-ref { left: 0; font-size: 7pt; font-style: italic; }
+
+.facts { top: 118mm; left: 0; width: 72mm; }
+.fact { display: grid; grid-template-columns: 5.5mm 21mm 1fr; align-items: baseline; height: 10mm;
+        border-bottom: var(--hair) solid var(--ink); padding-top: 3mm; }
+.fact:first-child { border-top: var(--hair) solid var(--ink); }
+.fact svg { width: 3.4mm; height: 3.4mm; align-self: center; margin-top: -2.4mm; }
+.fact .k { font-size: 6.4pt; letter-spacing: .14em; text-transform: uppercase; font-weight: 500; }
+.fact .v { font-size: 10pt; line-height: 1.1; }
+.fact .v.long { font-size: 9pt; }
+.notes { left: 0; width: 72mm; top: 173mm; font-size: 7pt; line-height: 1.25; font-style: italic; }
+.notes p { margin: 0 0 1.2mm; padding-left: 2.4mm; text-indent: -2.4mm; }
+.notes p::before { content: "* "; font-style: normal; }
+
+/* right column */
+.map { top: 40mm; left: 80mm; width: 96mm; height: 80mm; }
+.map svg { width: 100%; height: 100%; display: block; }
+.map text.capital-label { font-family: "EB Garamond", serif; font-size: 2.6px; font-style: italic; }
+.map text.inset-label { font-family: "EB Garamond", serif; font-size: 2.1px; letter-spacing: .12em; text-transform: uppercase; }
+.plate { top: 126mm; left: 80mm; width: 96mm; height: 72mm; border: var(--rule) solid var(--ink); padding: 1.2mm; }
+.plate .inner { width: 100%; height: 100%; border: var(--hair) solid var(--ink); display: flex; align-items: center; justify-content: center; padding: 2.2mm; }
+.plate svg { width: 100%; height: 100%; display: block; }
+.caption { top: 199.6mm; left: 80mm; width: 96mm; text-align: center; text-wrap: balance; font-style: italic; font-size: 9pt; line-height: 1.25; }
+
+/* bottom band: journal */
+.photo { top: 214mm; left: 0; width: 72mm; height: 53mm; border: var(--hair) solid var(--ink); }
+.photo .tape { position: absolute; top: -3mm; left: 50%; width: 22mm; height: 7mm; margin-left: -11mm;
+               border: var(--hair) solid var(--ink); background: inherit; transform: rotate(-3deg); }
+body:not(.print) .photo .tape { background: var(--paper); }
+body.print .photo .tape { background: #fff; }
+.photo .inside { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2mm; }
+.photo svg { width: 7mm; height: 6mm; }
+.visit { top: 214mm; left: 80mm; width: 96mm; height: 53mm; border: var(--rule) solid var(--ink); padding: 1.2mm; }
+.visit .inner { position: relative; height: 100%; border: var(--hair) solid var(--ink); padding: 4.5mm 5mm; }
+.visit h4 { margin: 0 0 4.6mm; font-family: "Cormorant Garamond", serif; font-weight: 600; font-size: 12pt; letter-spacing: .14em; text-transform: uppercase; }
+.visit .row { font-size: 9pt; font-style: italic; display: flex; align-items: flex-end; gap: 1.5mm; height: 7.6mm; }
+.visit .line { border-bottom: var(--hair) solid var(--ink); flex: 1; height: 0; margin-bottom: 1mm; }
+.visit .short { flex: none; width: 9mm; }
+.visit .year { flex: none; width: 14mm; }
+.stamp { position: absolute; right: 4mm; bottom: 3.6mm; width: 19mm; height: 19mm; }
+
+.folio { position: absolute; bottom: 8.5mm; left: 50%; width: 7mm; height: 7mm; margin-left: -3.5mm; border-radius: 50%;
+         background: var(--ink); color: #fff; font-size: 8pt; display: flex; align-items: center; justify-content: center; }
+.proposal-tag { position: absolute; top: 5mm; right: 6mm; font-size: 6pt; letter-spacing: .14em; text-transform: uppercase; color: #8a1c1c; }
+body.print .proposal-tag { display: none; }

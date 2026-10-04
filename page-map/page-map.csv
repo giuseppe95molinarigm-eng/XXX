@@ -1,0 +1,289 @@
+page,side,kind,content,continent
+1,recto,front matter,Half-title,
+2,verso,front matter (flexible),Frontispiece or blank,
+3,recto,front matter,Title page,
+4,verso,front matter,"Copyright page: 2025 reference year, sources, UN data credit, borders statement",
+5,recto,front matter,"Epigraph (client's original line; text in Blueprint, not available)",
+6,verso,front matter,Contents,
+7,recto,front matter,"How to use this book (flag dots, register, symbols)",
+8,verso,front matter,"Where in the world? World map to color (spread, left)",
+9,recto,front matter,"Countries I've visited (spread, right)",
+10,verso,front matter,"Silent page: Melville quotation (text in Blueprint, not available)",
+11,recto,continent,"Africa opener: compass, map, count, quotation",Africa
+12,verso,continent,"Africa: map to color (spread, left)",Africa
+13,recto,continent,"Africa: map to color (spread, right)",Africa
+14,verso,country page,Algeria,Africa
+15,recto,country page,Angola,Africa
+16,verso,country page,Benin,Africa
+17,recto,country page,Botswana,Africa
+18,verso,country page,Burkina Faso,Africa
+19,recto,country page,Burundi,Africa
+20,verso,country page,Cabo Verde,Africa
+21,recto,country page,Cameroon,Africa
+22,verso,country page,Central African Republic,Africa
+23,recto,country page,Chad,Africa
+24,verso,country page,Comoros,Africa
+25,recto,country page,Congo,Africa
+26,verso,country page,Côte d'Ivoire,Africa
+27,recto,country page,Democratic Republic of the Congo,Africa
+28,verso,country page,Djibouti,Africa
+29,recto,country page,Egypt,Africa
+30,verso,country page,Equatorial Guinea,Africa
+31,recto,country page,Eritrea,Africa
+32,verso,country page,Eswatini,Africa
+33,recto,country page,Ethiopia,Africa
+34,verso,country page,Gabon,Africa
+35,recto,country page,Gambia,Africa
+36,verso,country page,Ghana,Africa
+37,recto,country page,Guinea,Africa
+38,verso,country page,Guinea-Bissau,Africa
+39,recto,country page,Kenya,Africa
+40,verso,country page,Lesotho,Africa
+41,recto,country page,Liberia,Africa
+42,verso,country page,Libya,Africa
+43,recto,country page,Madagascar,Africa
+44,verso,country page,Malawi,Africa
+45,recto,country page,Mali,Africa
+46,verso,country page,Mauritania,Africa
+47,recto,country page,Mauritius,Africa
+48,verso,country page,Morocco,Africa
+49,recto,country page,Mozambique,Africa
+50,verso,country page,Namibia,Africa
+51,recto,country page,Niger,Africa
+52,verso,country page,Nigeria,Africa
+53,recto,country page,Rwanda,Africa
+54,verso,country page,Sao Tome and Principe,Africa
+55,recto,country page,Senegal,Africa
+56,verso,country page,Seychelles,Africa
+57,recto,country page,Sierra Leone,Africa
+58,verso,country page,Somalia,Africa
+59,recto,country page,South Africa,Africa
+60,verso,country page,South Sudan,Africa
+61,recto,country page,Sudan,Africa
+62,verso,country page,Tanzania,Africa
+63,recto,country page,Togo,Africa
+64,verso,country page,Tunisia,Africa
+65,recto,country page,Uganda,Africa
+66,verso,country page,Zambia,Africa
+67,recto,country page,Zimbabwe,Africa
+68,verso,continent,Africa bucket list: 15 curated experiences,Africa
+69,recto,flexible,Notes (flexible page),Africa
+70,verso,continent,Africa closing spread (left): achievement page,Africa
+71,recto,continent,Africa closing spread (right): achievement + a memory worth keeping,Africa
+72,verso,flexible,Notes (flexible page),Asia
+73,recto,continent,"Asia opener: compass, map, count, quotation",Asia
+74,verso,continent,"Asia: map to color (spread, left)",Asia
+75,recto,continent,"Asia: map to color (spread, right)",Asia
+76,verso,country page,Afghanistan,Asia
+77,recto,country page,Armenia,Asia
+78,verso,country page,Azerbaijan,Asia
+79,recto,country page,Bahrain,Asia
+80,verso,country page,Bangladesh,Asia
+81,recto,country page,Bhutan,Asia
+82,verso,country page,Brunei,Asia
+83,recto,country page,Cambodia,Asia
+84,verso,country page,China,Asia
+85,recto,country page,Cyprus,Asia
+86,verso,country page,Georgia,Asia
+87,recto,country page,India,Asia
+88,verso,country page,Indonesia,Asia
+89,recto,country page,Iran,Asia
+90,verso,country page,Iraq,Asia
+91,recto,country page,Israel,Asia
+92,verso,country page,Japan,Asia
+93,recto,country page,Jordan,Asia
+94,verso,country page,Kazakhstan,Asia
+95,recto,country page,Kuwait,Asia
+96,verso,country page,Kyrgyzstan,Asia
+97,recto,country page,Laos,Asia
+98,verso,country page,Lebanon,Asia
+99,recto,country page,Malaysia,Asia
+100,verso,country page,Maldives,Asia
+101,recto,country page,Mongolia,Asia
+102,verso,country page,Myanmar,Asia
+103,recto,country page,Nepal,Asia
+104,verso,country page,North Korea,Asia
+105,recto,country page,Oman,Asia
+106,verso,country page,Pakistan,Asia
+107,recto,country page,Palestine,Asia
+108,verso,country page,Philippines,Asia
+109,recto,country page,Qatar,Asia
+110,verso,country page,Saudi Arabia,Asia
+111,recto,country page,Singapore,Asia
+112,verso,country page,South Korea,Asia
+113,recto,country page,Sri Lanka,Asia
+114,verso,country page,Syria,Asia
+115,recto,country page,Tajikistan,Asia
+116,verso,country page,Thailand,Asia
+117,recto,country page,Timor-Leste,Asia
+118,verso,country page,Türkiye,Asia
+119,recto,country page,Turkmenistan,Asia
+120,verso,country page,United Arab Emirates,Asia
+121,recto,country page,Uzbekistan,Asia
+122,verso,country page,Vietnam,Asia
+123,recto,country page,Yemen,Asia
+124,verso,continent,Asia bucket list: 15 curated experiences,Asia
+125,recto,flexible,Notes (flexible page),Asia
+126,verso,continent,Asia closing spread (left): achievement page,Asia
+127,recto,continent,Asia closing spread (right): achievement + a memory worth keeping,Asia
+128,verso,flexible,Notes (flexible page),Europe
+129,recto,continent,"Europe opener: compass, map, count, quotation",Europe
+130,verso,continent,"Europe: map to color (spread, left)",Europe
+131,recto,continent,"Europe: map to color (spread, right)",Europe
+132,verso,country page,Albania,Europe
+133,recto,country page,Andorra,Europe
+134,verso,country page,Austria,Europe
+135,recto,country page,Belarus,Europe
+136,verso,country page,Belgium,Europe
+137,recto,country page,Bosnia and Herzegovina,Europe
+138,verso,country page,Bulgaria,Europe
+139,recto,country page,Croatia,Europe
+140,verso,country page,Czechia,Europe
+141,recto,country page,Denmark,Europe
+142,verso,country page,Estonia,Europe
+143,recto,country page,Finland,Europe
+144,verso,country page,France,Europe
+145,recto,country page,Germany,Europe
+146,verso,country page,Greece,Europe
+147,recto,country page,Holy See,Europe
+148,verso,country page,Hungary,Europe
+149,recto,country page,Iceland,Europe
+150,verso,country page,Ireland,Europe
+151,recto,country page,Italy,Europe
+152,verso,country page,Latvia,Europe
+153,recto,country page,Liechtenstein,Europe
+154,verso,country page,Lithuania,Europe
+155,recto,country page,Luxembourg,Europe
+156,verso,country page,Malta,Europe
+157,recto,country page,Moldova,Europe
+158,verso,country page,Monaco,Europe
+159,recto,country page,Montenegro,Europe
+160,verso,country page,Netherlands,Europe
+161,recto,country page,North Macedonia,Europe
+162,verso,country page,Norway,Europe
+163,recto,country page,Poland,Europe
+164,verso,country page,Portugal,Europe
+165,recto,country page,Romania,Europe
+166,verso,country page,Russia,Europe
+167,recto,country page,San Marino,Europe
+168,verso,country page,Serbia,Europe
+169,recto,country page,Slovakia,Europe
+170,verso,country page,Slovenia,Europe
+171,recto,country page,Spain,Europe
+172,verso,country page,Sweden,Europe
+173,recto,country page,Switzerland,Europe
+174,verso,country page,Ukraine,Europe
+175,recto,country page,United Kingdom,Europe
+176,verso,continent,Europe bucket list: 15 curated experiences,Europe
+177,recto,flexible,Notes (flexible page),Europe
+178,verso,continent,Europe closing spread (left): achievement page,Europe
+179,recto,continent,Europe closing spread (right): achievement + a memory worth keeping,Europe
+180,verso,flexible,Notes (flexible page),North America
+181,recto,continent,"North America opener: compass, map, count, quotation",North America
+182,verso,continent,"North America: map to color (spread, left)",North America
+183,recto,continent,"North America: map to color (spread, right)",North America
+184,verso,country page,Antigua and Barbuda,North America
+185,recto,country page,Bahamas,North America
+186,verso,country page,Barbados,North America
+187,recto,country page,Belize,North America
+188,verso,country page,Canada,North America
+189,recto,country page,Costa Rica,North America
+190,verso,country page,Cuba,North America
+191,recto,country page,Dominica,North America
+192,verso,country page,Dominican Republic,North America
+193,recto,country page,El Salvador,North America
+194,verso,country page,Grenada,North America
+195,recto,country page,Guatemala,North America
+196,verso,country page,Haiti,North America
+197,recto,country page,Honduras,North America
+198,verso,country page,Jamaica,North America
+199,recto,country page,Mexico,North America
+200,verso,country page,Nicaragua,North America
+201,recto,country page,Panama,North America
+202,verso,country page,Saint Kitts and Nevis,North America
+203,recto,country page,Saint Lucia,North America
+204,verso,country page,Saint Vincent and the Grenadines,North America
+205,recto,country page,Trinidad and Tobago,North America
+206,verso,country page,United States,North America
+207,recto,continent,North America bucket list: 15 curated experiences,North America
+208,verso,continent,North America closing spread (left): achievement page,North America
+209,recto,continent,North America closing spread (right): achievement + a memory worth keeping,North America
+210,verso,flexible,Notes (flexible page),Oceania
+211,recto,continent,"Oceania opener: compass, map, count, quotation",Oceania
+212,verso,continent,"Oceania: map to color (spread, left)",Oceania
+213,recto,continent,"Oceania: map to color (spread, right)",Oceania
+214,verso,country page,Australia,Oceania
+215,recto,country page,Fiji,Oceania
+216,verso,country page,Kiribati,Oceania
+217,recto,country page,Marshall Islands,Oceania
+218,verso,country page,Micronesia,Oceania
+219,recto,country page,Nauru,Oceania
+220,verso,country page,New Zealand,Oceania
+221,recto,country page,Palau,Oceania
+222,verso,country page,Papua New Guinea,Oceania
+223,recto,country page,Samoa,Oceania
+224,verso,country page,Solomon Islands,Oceania
+225,recto,country page,Tonga,Oceania
+226,verso,country page,Tuvalu,Oceania
+227,recto,country page,Vanuatu,Oceania
+228,verso,continent,Oceania bucket list: 15 curated experiences,Oceania
+229,recto,flexible,Notes (flexible page),Oceania
+230,verso,continent,Oceania closing spread (left): achievement page,Oceania
+231,recto,continent,Oceania closing spread (right): achievement + a memory worth keeping,Oceania
+232,verso,flexible,Notes (flexible page),South America
+233,recto,continent,"South America opener: compass, map, count, quotation",South America
+234,verso,continent,"South America: map to color (spread, left)",South America
+235,recto,continent,"South America: map to color (spread, right)",South America
+236,verso,country page,Argentina,South America
+237,recto,country page,Bolivia,South America
+238,verso,country page,Brazil,South America
+239,recto,country page,Chile,South America
+240,verso,country page,Colombia,South America
+241,recto,country page,Ecuador,South America
+242,verso,country page,Guyana,South America
+243,recto,country page,Paraguay,South America
+244,verso,country page,Peru,South America
+245,recto,country page,Suriname,South America
+246,verso,country page,Uruguay,South America
+247,recto,country page,Venezuela,South America
+248,verso,continent,South America bucket list: 15 curated experiences,South America
+249,recto,flexible,Notes (flexible page),South America
+250,verso,continent,South America closing spread (left): achievement page,South America
+251,recto,continent,South America closing spread (right): achievement + a memory worth keeping,South America
+252,verso,back matter,Travel statistics ledger (expanded) (1/4),
+253,recto,back matter,Travel statistics ledger (expanded) (2/4),
+254,verso,back matter,Travel statistics ledger (expanded) (3/4),
+255,recto,back matter,Travel statistics ledger (expanded) (4/4),
+256,verso,back matter,My top five (spread) (1/2),
+257,recto,back matter,My top five (spread) (2/2),
+258,verso,back matter,Where I Go Next: reader's list + planning block for the next journey (1/2),
+259,recto,back matter,Where I Go Next: reader's list + planning block for the next journey (2/2),
+260,verso,back matter,Favorite memory (single spread) (1/2),
+261,recto,back matter,Favorite memory (single spread) (2/2),
+262,verso,back matter,"Color register (4 pages, was 8) (1/4)",
+263,recto,back matter,"Color register (4 pages, was 8) (2/4)",
+264,verso,back matter,"Color register (4 pages, was 8) (3/4)",
+265,recto,back matter,"Color register (4 pages, was 8) (4/4)",
+266,verso,back matter,Index of countries (1/2),
+267,recto,back matter,Index of countries (2/2),
+268,verso,back matter,Sources and notes (1/2),
+269,recto,back matter,Sources and notes (2/2),
+270,verso,back matter,Colophon,
+271,recto,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
+272,verso,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
+273,recto,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
+274,verso,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
+275,recto,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
+276,verso,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
+277,recto,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
+278,verso,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
+279,recto,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
+280,verso,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
+281,recto,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
+282,verso,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
+283,recto,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
+284,verso,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
+285,recto,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
+286,verso,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
+287,recto,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
+288,verso,UNALLOCATED,"To reconcile with the Blueprint (notes pages, or content to be agreed)",
