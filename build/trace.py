@@ -17,6 +17,8 @@ MASKS = {  # file stem -> list of (x0, y0, x1, y1) px rectangles to whiten
 }
 for f in sorted(glob.glob(os.path.join(SRC, "*.png"))):
     stem = os.path.splitext(os.path.basename(f))[0]
+    if os.path.exists(os.path.join(DST, stem + ".svg")) and os.path.getmtime(os.path.join(DST, stem + ".svg")) > os.path.getmtime(f):
+        continue
     im = Image.open(f).convert("L")
     d = ImageDraw.Draw(im)
     for r in MASKS.get(stem, []):

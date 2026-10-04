@@ -2,7 +2,13 @@
 
 Repository di lavoro di ElitePublishing per la Fase 1 (pianificazione e direzione visiva). Il materiale per il cliente è in American English; il report interno è in italiano: **`REPORT-INTERNO-fase1.md`**.
 
-## File finale di consegna
+## LIBRO COMPLETO (consegna finale)
+- `delivery/THE-WORLD-Countries-and-Flags-interior.pdf`: interno completo, 288 pagine A4 (210 × 297 mm) con 3 mm di abbondanza (TrimBox/BleedBox impostati), solo nero, tutto vettoriale, font incorporati (nessun Type 3).
+- `delivery/THE-WORLD-cover-preview.pdf`: anteprima della copertina in tela navy con oro.
+- `delivery/THE-WORLD-cover-foil-artwork-ESTIMATED-SPINE.pdf`: impianto del foil (fronte + dorso) su misure stimate (dorso 25 mm): da riallineare al template dello stampatore.
+- Rigenerazione: `python3 build/book.py && node build/render_book.mjs && python3 build/merge_book.py` (dati in `data/countries_master.py`, testi in `data/book_text.py`).
+
+## File della revisione Fase 1 (superati dal libro completo)
 - `delivery/THE-WORLD-Phase1-Delivery.pdf`: tutto in un unico PDF di 28 pagine, con indice e segnalibri.
 - `delivery/THE-WORLD-Phase1-Source-Package.zip`: PDF singoli e sorgenti per il cliente, senza documenti interni.
 

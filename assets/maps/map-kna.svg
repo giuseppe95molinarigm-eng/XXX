@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96.0 76.0" width="96.0mm" height="76.0mm" class="map">
+<path d="M69.25,50.27 L73.69,50.35 L77.54,51.64 L80.51,54.51 L82.23,59.36 L82.48,61.37 L82.59,66.52 L82.24,68.45 L81.14,71.14 L80.29,72.08 L76.41,73.00 L66.50,72.20 L63.46,64.09 L65.11,54.74 L69.25,50.27Z M54.82,34.61 L61.22,38.00 L63.79,41.63 L63.80,45.31 L59.05,47.11 L56.34,45.27 L54.05,36.90 L49.82,34.28 L47.03,31.14 L45.07,30.43 L38.35,30.81 L35.60,30.43 L28.83,27.68 L19.68,22.02 L13.41,14.88 L15.11,7.68 L16.51,6.52 L18.15,6.03 L20.75,4.92 L21.67,4.27 L22.26,3.00 L43.49,15.73 L48.72,21.35 L52.41,30.45 L54.82,34.61Z" fill="#fff" stroke="#000" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd"/>
+<circle cx="44.12" cy="28.27" r="1.1" fill="#fff" stroke="#000" stroke-width="0.25"/>
+<circle cx="44.12" cy="28.27" r="0.45" fill="#000"/>
+<text x="46.12" y="29.27" text-anchor="start" class="capital-label">Basseterre</text>
+</svg>

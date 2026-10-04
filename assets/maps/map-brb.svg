@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96.0 76.0" width="96.0mm" height="76.0mm" class="map">
+<path d="M74.56,46.94 L73.84,55.16 L67.83,61.34 L60.39,66.46 L55.41,71.53 L50.63,71.99 L49.03,73.00 L46.73,69.06 L42.41,66.59 L37.15,65.36 L32.19,65.01 L29.05,62.78 L26.35,57.55 L23.32,46.94 L21.44,14.79 L21.90,11.09 L23.56,7.97 L26.88,4.57 L31.10,3.00 L35.40,5.33 L38.61,10.17 L45.83,25.76 L48.92,30.00 L59.39,37.98 L62.93,40.02 L67.50,41.50 L71.82,43.48 L74.56,46.94Z" fill="#fff" stroke="#000" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd"/>
+<circle cx="30.23" cy="60.87" r="1.1" fill="#fff" stroke="#000" stroke-width="0.25"/>
+<circle cx="30.23" cy="60.87" r="0.45" fill="#000"/>
+<text x="32.23" y="61.87" text-anchor="start" class="capital-label">Bridgetown</text>
+</svg>

@@ -1,0 +1,124 @@
+/* THE WORLD: Countries & Flags. Print stylesheet for the complete interior.
+   Sheet = trim 210 x 297 mm + 3 mm bleed on every side (216 x 303 mm). One color: black. */
+@font-face { font-family: "EB Garamond"; src: url("../assets/fonts/static/EBGaramond-400.ttf"); font-weight: 400; }
+@font-face { font-family: "EB Garamond"; src: url("../assets/fonts/static/EBGaramond-500.ttf"); font-weight: 500; }
+@font-face { font-family: "EB Garamond"; src: url("../assets/fonts/static/EBGaramond-600.ttf"); font-weight: 600 700; }
+@font-face { font-family: "EB Garamond"; src: url("../assets/fonts/static/EBGaramond-Italic-400.ttf"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "EB Garamond"; src: url("../assets/fonts/static/EBGaramond-Italic-500.ttf"); font-weight: 500 700; font-style: italic; }
+@font-face { font-family: "Cormorant Garamond"; src: url("../assets/fonts/static/CormorantGaramond-500.ttf"); font-weight: 500; }
+@font-face { font-family: "Cormorant Garamond"; src: url("../assets/fonts/static/CormorantGaramond-600.ttf"); font-weight: 600 700; }
+@font-face { font-family: "Cormorant Garamond"; src: url("../assets/fonts/static/CormorantGaramond-Italic-500.ttf"); font-style: italic; }
+@font-face { font-family: "Noto Naskh Arabic"; src: url("../assets/fonts/static/NotoNaskhArabic-400.ttf"); }
+@font-face { font-family: "NS Hebrew"; src: url("../assets/fonts/static/notoserifhebrew-500.ttf"); }
+@font-face { font-family: "NS Devanagari"; src: url("../assets/fonts/static/notoserifdevanagari-500.ttf"); }
+@font-face { font-family: "NS Bengali"; src: url("../assets/fonts/static/notoserifbengali-500.ttf"); }
+@font-face { font-family: "NS Sinhala"; src: url("../assets/fonts/static/notoserifsinhala-500.ttf"); }
+@font-face { font-family: "NS Thai"; src: url("../assets/fonts/static/notoserifthai-500.ttf"); }
+@font-face { font-family: "NS Lao"; src: url("../assets/fonts/static/notoseriflao-500.ttf"); }
+@font-face { font-family: "NS Khmer"; src: url("../assets/fonts/static/notoserifkhmer-500.ttf"); }
+@font-face { font-family: "NS Myanmar"; src: url("../assets/fonts/static/notoserifmyanmar-500.ttf"); }
+@font-face { font-family: "NS Tibetan"; src: url("../assets/fonts/static/notoseriftibetan-500.ttf"); }
+@font-face { font-family: "NS Georgian"; src: url("../assets/fonts/static/notoserifgeorgian-500.ttf"); }
+@font-face { font-family: "NS Armenian"; src: url("../assets/fonts/static/notoserifarmenian-500.ttf"); }
+@font-face { font-family: "NS Ethiopic"; src: url("../assets/fonts/static/notoserifethiopic-500.ttf"); }
+@font-face { font-family: "NS Thaana"; src: url("../assets/fonts/static/notosansthaana-500.ttf"); }
+@font-face { font-family: "NS KR"; src: url("../assets/fonts/static/notoserifkr-500.ttf"); }
+@font-face { font-family: "NS SC"; src: url("../assets/fonts/static/notoserifsc-500.ttf"); }
+@font-face { font-family: "NS JP"; src: url("../assets/fonts/static/notoserifjp-500.ttf"); }
+
+@page { size: 216mm 303mm; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #fff; }
+body { font-family: "EB Garamond", serif; color: #000; font-variant-numeric: lining-nums; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.sheet { width: 216mm; height: 303mm; padding: 3mm; position: relative; overflow: hidden; break-after: page; page-break-after: always; }
+.page { width: 210mm; height: 297mm; position: relative; }
+.live { position: absolute; top: 14mm; height: 267mm; width: 176mm; }
+.recto .live { left: 20mm; }
+.verso .live { left: 14mm; }
+.abs { position: absolute; }
+.folio { position: absolute; bottom: 8.5mm; left: 50%; width: 7mm; height: 7mm; margin-left: -3.5mm; border-radius: 50%;
+         background: #000; color: #fff; font-size: 8pt; display: flex; align-items: center; justify-content: center; }
+.native-fonts { font-family: "EB Garamond", "Noto Naskh Arabic", "NS Hebrew", "NS Devanagari", "NS Bengali", "NS Sinhala", "NS Thai",
+                "NS Lao", "NS Khmer", "NS Myanmar", "NS Tibetan", "NS Georgian", "NS Armenian", "NS Ethiopic", "NS Thaana", serif; }
+.jp { font-family: "NS JP", serif; } .sc { font-family: "NS SC", serif; } .kr { font-family: "NS KR", serif; }
+
+.label { font-size: 7pt; letter-spacing: .16em; text-transform: uppercase; font-weight: 500; line-height: 1; }
+.display { font-family: "Cormorant Garamond", serif; font-weight: 600; text-transform: uppercase; letter-spacing: .1em; line-height: 1; }
+.rule { border-top: .25pt solid #000; }
+.line { border-bottom: .25pt solid #000; }
+.box { width: 3.2mm; height: 3.2mm; border: .5pt solid #000; display: inline-block; flex: none; }
+.ornament { display: flex; align-items: center; justify-content: center; gap: 2mm; }
+.ornament::before, .ornament::after { content: ""; width: 16mm; border-top: .4pt solid #000; }
+.ornament i { width: 1.6mm; height: 1.6mm; transform: rotate(45deg); border: .4pt solid #000; display: block; }
+
+/* ---------- country page ---------- */
+.continent { top: 0; left: 0; display: flex; align-items: center; gap: 1.6mm; }
+.continent svg { width: 2.6mm; height: 3.4mm; }
+.country-name { top: 3.5mm; left: -0.6mm; width: 177mm; font-family: "Cormorant Garamond", serif; font-weight: 600;
+                font-size: 46pt; line-height: .98; letter-spacing: .02em; text-transform: uppercase; white-space: nowrap; }
+.country-name.two { white-space: normal; font-size: 30pt; }
+.local { top: 22.5mm; left: 0; display: flex; align-items: baseline; gap: 3mm; white-space: nowrap; }
+.local.low { top: 25.5mm; }
+.local .native { font-size: 17pt; line-height: 1.2; font-style: italic; }
+.local .native.script { font-style: normal; font-weight: 500; }
+.local .translit, .local .formal { font-style: italic; font-size: 13pt; }
+.head-rule { top: 34.5mm; left: 0; width: 176mm; border-top: .25pt solid #000; }
+.flag-label { top: 40mm; left: 0; }
+.flag { top: 44.5mm; left: 0; }
+.flag svg { display: block; width: 100%; height: 100%; }
+.dots { left: 0; display: flex; gap: 2.2mm; }
+.dot { display: flex; flex-direction: column; align-items: center; gap: 1.1mm; width: 10.4mm; }
+.dot i { width: 5.6mm; height: 5.6mm; border: .6pt solid #000; border-radius: 50%; display: block; }
+.dot span { font-size: 5.4pt; letter-spacing: .06em; text-transform: uppercase; text-align: center; line-height: 1.05; }
+.register-ref { left: 0; font-size: 7pt; font-style: italic; }
+.leftcol { top: 116mm; left: 0; width: 72mm; height: 83mm; display: flex; flex-direction: column; }
+.fact { display: grid; grid-template-columns: 5.5mm 20mm 1fr; align-items: baseline; min-height: 10mm;
+        border-bottom: .25pt solid #000; padding: 3mm 0 1.6mm; }
+.fact:first-child { border-top: .25pt solid #000; }
+.fact svg { width: 3.4mm; height: 3.4mm; align-self: start; margin-top: -.4mm; }
+.fact .k { font-size: 6.4pt; letter-spacing: .14em; text-transform: uppercase; font-weight: 500; }
+.fact .v { font-size: 10pt; line-height: 1.15; }
+.fact .v.long { font-size: 9pt; }
+.notes { margin-top: 3.4mm; font-size: 7pt; line-height: 1.25; font-style: italic; }
+.notes p { margin: 0 0 1.1mm; padding-left: 2.4mm; text-indent: -2.4mm; }
+.notes p::before { content: "* "; font-style: normal; }
+.map { top: 40mm; left: 80mm; width: 96mm; height: 76mm; }
+.map svg { width: 100%; height: 100%; display: block; }
+.map text.capital-label { font-family: "EB Garamond", serif; font-size: 2.6px; font-style: italic; }
+.map text.inset-label { font-family: "EB Garamond", serif; font-size: 2.1px; letter-spacing: .12em; text-transform: uppercase; }
+.plate { top: 120mm; left: 80mm; width: 96mm; height: 66mm; border: .5pt solid #000; padding: 1.2mm; }
+.plate .inner { width: 100%; height: 100%; border: .25pt solid #000; display: flex; align-items: center; justify-content: center; padding: 2.2mm; }
+.plate svg { width: 100%; height: 100%; display: block; }
+.caption { top: 187.6mm; left: 80mm; width: 96mm; text-align: center; font-style: italic; font-size: 9pt; line-height: 1.25; }
+.photo { top: 203mm; left: 0; width: 90mm; height: 64mm; border: .25pt solid #000; }
+.photo .tape { position: absolute; top: -3mm; left: 50%; width: 22mm; height: 7mm; margin-left: -11mm; border: .25pt solid #000; background: #fff; transform: rotate(-3deg); }
+.photo .inside { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2mm; }
+.photo .inside svg { width: 7mm; height: 6mm; }
+.photo .size { position: absolute; bottom: 2.4mm; left: 0; right: 0; text-align: center; font-size: 7pt; font-style: italic; }
+.visit { top: 203mm; left: 98mm; width: 78mm; height: 64mm; border: .5pt solid #000; padding: 1.2mm; }
+.visit .inner { position: relative; height: 100%; border: .25pt solid #000; padding: 4.5mm 5mm; }
+.visit h4 { margin: 0 0 4.6mm; font-family: "Cormorant Garamond", serif; font-weight: 600; font-size: 12pt; letter-spacing: .14em; text-transform: uppercase; }
+.visit .row { font-size: 9pt; font-style: italic; display: flex; align-items: flex-end; gap: 1.5mm; height: 7.6mm; }
+.visit .row .line { flex: 1; height: 0; margin-bottom: 1mm; }
+.visit .short { flex: none !important; width: 9mm; }
+.visit .year { flex: none !important; width: 14mm; }
+.stamp { position: absolute; right: 4mm; bottom: 3.6mm; width: 19mm; height: 19mm; }
+
+/* ---------- generic pages ---------- */
+.center { text-align: center; }
+.pagetitle { font-family: "Cormorant Garamond", serif; font-weight: 600; font-size: 26pt; letter-spacing: .1em; text-transform: uppercase; margin: 0; line-height: 1.05; }
+.pagesub { font-style: italic; font-size: 11pt; margin: 2mm 0 0; }
+.kicker { font-size: 7.5pt; letter-spacing: .2em; text-transform: uppercase; font-weight: 500; }
+.prose { font-size: 10.6pt; line-height: 1.5; text-align: justify; hyphens: auto; }
+.prose p { margin: 0 0 3.2mm; text-indent: 0; }
+.prose p + p { text-indent: 5mm; margin-top: -1.2mm; }
+.prose p.flush { text-indent: 0; }
+.prose em.lead { font-style: italic; }
+.fieldrow { display: flex; align-items: flex-end; gap: 2mm; height: 11mm; font-size: 10pt; font-style: italic; }
+.fieldrow .line { flex: 1; margin-bottom: 1.2mm; }
+.ruled > div { height: 8.5mm; border-bottom: .25pt solid #000; }
+table.journal { width: 100%; border-collapse: collapse; }
+table.journal th { font-size: 6.6pt; letter-spacing: .14em; text-transform: uppercase; font-weight: 500; text-align: left; padding: 0 2mm 1.6mm 0; border-bottom: .5pt solid #000; }
+table.journal td { height: 10mm; border-bottom: .25pt solid #000; }
+.pin { width: 2.6mm; height: 3.4mm; }
+.compass svg { color: #000; }

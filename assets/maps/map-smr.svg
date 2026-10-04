@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96.0 76.0" width="96.0mm" height="76.0mm" class="map">
+<path d="M42.66,73.00 L25.96,64.36 L18.17,47.87 L23.78,29.42 L38.17,14.87 L56.00,5.72 L72.10,3.00 L76.03,10.31 L77.83,23.22 L76.68,36.57 L72.12,45.26 L70.68,46.90 L69.82,48.90 L69.52,51.35 L69.96,53.68 L60.00,70.52 L42.66,73.00Z" fill="#fff" stroke="#000" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd"/>
+<circle cx="49.55" cy="38.94" r="1.1" fill="#fff" stroke="#000" stroke-width="0.25"/>
+<circle cx="49.55" cy="38.94" r="0.45" fill="#000"/>
+<text x="51.55" y="39.94" text-anchor="start" class="capital-label">San Marino</text>
+</svg>

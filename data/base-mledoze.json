@@ -1,0 +1,4581 @@
+{
+"Albania": {
+"cca3": "ALB",
+"ccn3": "008",
+"cca2": "al",
+"capital": [
+"Tirana"
+],
+"lang": [
+"Albanian"
+],
+"cur": [
+"Albanian lek (ALL)"
+],
+"area": 28748,
+"native": [
+"Shqipëria"
+],
+"latlng": [
+41,
+20
+]
+},
+"Andorra": {
+"cca3": "AND",
+"ccn3": "020",
+"cca2": "ad",
+"capital": [
+"Andorra la Vella"
+],
+"lang": [
+"Catalan"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 468,
+"native": [
+"Andorra"
+],
+"latlng": [
+42.5,
+1.5
+]
+},
+"Austria": {
+"cca3": "AUT",
+"ccn3": "040",
+"cca2": "at",
+"capital": [
+"Vienna"
+],
+"lang": [
+"Austro-Bavarian German"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 83871,
+"native": [
+"Österreich"
+],
+"latlng": [
+47.33333333,
+13.33333333
+]
+},
+"Belarus": {
+"cca3": "BLR",
+"ccn3": "112",
+"cca2": "by",
+"capital": [
+"Minsk"
+],
+"lang": [
+"Belarusian",
+"Russian"
+],
+"cur": [
+"Belarusian ruble (BYN)"
+],
+"area": 207600,
+"native": [
+"Белару́сь",
+"Беларусь"
+],
+"latlng": [
+53,
+28
+]
+},
+"Belgium": {
+"cca3": "BEL",
+"ccn3": "056",
+"cca2": "be",
+"capital": [
+"Brussels"
+],
+"lang": [
+"German",
+"French",
+"Dutch"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 30528,
+"native": [
+"Belgien",
+"Belgique",
+"België"
+],
+"latlng": [
+50.83333333,
+4
+]
+},
+"Bosnia and Herzegovina": {
+"cca3": "BIH",
+"ccn3": "070",
+"cca2": "ba",
+"capital": [
+"Sarajevo"
+],
+"lang": [
+"Bosnian",
+"Croatian",
+"Serbian"
+],
+"cur": [
+"Bosnia and Herzegovina convertible mark (BAM)"
+],
+"area": 51209,
+"native": [
+"Bosna i Hercegovina",
+"Bosna i Hercegovina",
+"Боснa и Херцеговина"
+],
+"latlng": [
+44,
+18
+]
+},
+"Bulgaria": {
+"cca3": "BGR",
+"ccn3": "100",
+"cca2": "bg",
+"capital": [
+"Sofia"
+],
+"lang": [
+"Bulgarian"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 110879,
+"native": [
+"България"
+],
+"latlng": [
+43,
+25
+]
+},
+"Croatia": {
+"cca3": "HRV",
+"ccn3": "191",
+"cca2": "hr",
+"capital": [
+"Zagreb"
+],
+"lang": [
+"Croatian"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 56594,
+"native": [
+"Hrvatska"
+],
+"latlng": [
+45.16666666,
+15.5
+]
+},
+"Czechia": {
+"cca3": "CZE",
+"ccn3": "203",
+"cca2": "cz",
+"capital": [
+"Prague"
+],
+"lang": [
+"Czech",
+"Slovak"
+],
+"cur": [
+"Czech koruna (CZK)"
+],
+"area": 78865,
+"native": [
+"Česko",
+"Česko"
+],
+"latlng": [
+49.75,
+15.5
+]
+},
+"Denmark": {
+"cca3": "DNK",
+"ccn3": "208",
+"cca2": "dk",
+"capital": [
+"Copenhagen"
+],
+"lang": [
+"Danish"
+],
+"cur": [
+"Danish krone (DKK)"
+],
+"area": 43094,
+"native": [
+"Danmark"
+],
+"latlng": [
+56,
+10
+]
+},
+"Estonia": {
+"cca3": "EST",
+"ccn3": "233",
+"cca2": "ee",
+"capital": [
+"Tallinn"
+],
+"lang": [
+"Estonian"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 45227,
+"native": [
+"Eesti"
+],
+"latlng": [
+59,
+26
+]
+},
+"Finland": {
+"cca3": "FIN",
+"ccn3": "246",
+"cca2": "fi",
+"capital": [
+"Helsinki"
+],
+"lang": [
+"Finnish",
+"Swedish"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 338424,
+"native": [
+"Suomi",
+"Finland"
+],
+"latlng": [
+64,
+26
+]
+},
+"France": {
+"cca3": "FRA",
+"ccn3": "250",
+"cca2": "fr",
+"capital": [
+"Paris"
+],
+"lang": [
+"French"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 551695,
+"native": [
+"France"
+],
+"latlng": [
+46,
+2
+]
+},
+"Germany": {
+"cca3": "DEU",
+"ccn3": "276",
+"cca2": "de",
+"capital": [
+"Berlin"
+],
+"lang": [
+"German"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 357114,
+"native": [
+"Deutschland"
+],
+"latlng": [
+51,
+9
+]
+},
+"Greece": {
+"cca3": "GRC",
+"ccn3": "300",
+"cca2": "gr",
+"capital": [
+"Athens"
+],
+"lang": [
+"Greek"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 131990,
+"native": [
+"Ελλάδα"
+],
+"latlng": [
+39,
+22
+]
+},
+"Holy See": {
+"cca3": "VAT",
+"ccn3": "336",
+"cca2": "va",
+"capital": [
+"Vatican City"
+],
+"lang": [
+"Italian",
+"Latin"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 0.44,
+"native": [
+"Vaticano",
+"Vaticanæ"
+],
+"latlng": [
+41.9,
+12.45
+]
+},
+"Hungary": {
+"cca3": "HUN",
+"ccn3": "348",
+"cca2": "hu",
+"capital": [
+"Budapest"
+],
+"lang": [
+"Hungarian"
+],
+"cur": [
+"Hungarian forint (HUF)"
+],
+"area": 93028,
+"native": [
+"Magyarország"
+],
+"latlng": [
+47,
+20
+]
+},
+"Iceland": {
+"cca3": "ISL",
+"ccn3": "352",
+"cca2": "is",
+"capital": [
+"Reykjavik"
+],
+"lang": [
+"Icelandic"
+],
+"cur": [
+"Icelandic króna (ISK)"
+],
+"area": 103000,
+"native": [
+"Ísland"
+],
+"latlng": [
+65,
+-18
+]
+},
+"Ireland": {
+"cca3": "IRL",
+"ccn3": "372",
+"cca2": "ie",
+"capital": [
+"Dublin"
+],
+"lang": [
+"English",
+"Irish"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 70273,
+"native": [
+"Ireland",
+"Éire"
+],
+"latlng": [
+53,
+-8
+]
+},
+"Italy": {
+"cca3": "ITA",
+"ccn3": "380",
+"cca2": "it",
+"capital": [
+"Rome"
+],
+"lang": [
+"Italian"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 301336,
+"native": [
+"Italia"
+],
+"latlng": [
+42.83333333,
+12.83333333
+]
+},
+"Latvia": {
+"cca3": "LVA",
+"ccn3": "428",
+"cca2": "lv",
+"capital": [
+"Riga"
+],
+"lang": [
+"Latvian"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 64559,
+"native": [
+"Latvija"
+],
+"latlng": [
+57,
+25
+]
+},
+"Liechtenstein": {
+"cca3": "LIE",
+"ccn3": "438",
+"cca2": "li",
+"capital": [
+"Vaduz"
+],
+"lang": [
+"German"
+],
+"cur": [
+"Swiss franc (CHF)"
+],
+"area": 160,
+"native": [
+"Liechtenstein"
+],
+"latlng": [
+47.26666666,
+9.53333333
+]
+},
+"Lithuania": {
+"cca3": "LTU",
+"ccn3": "440",
+"cca2": "lt",
+"capital": [
+"Vilnius"
+],
+"lang": [
+"Lithuanian"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 65300,
+"native": [
+"Lietuva"
+],
+"latlng": [
+56,
+24
+]
+},
+"Luxembourg": {
+"cca3": "LUX",
+"ccn3": "442",
+"cca2": "lu",
+"capital": [
+"Luxembourg"
+],
+"lang": [
+"German",
+"French",
+"Luxembourgish"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 2586,
+"native": [
+"Luxemburg",
+"Luxembourg",
+"Lëtzebuerg"
+],
+"latlng": [
+49.75,
+6.16666666
+]
+},
+"Malta": {
+"cca3": "MLT",
+"ccn3": "470",
+"cca2": "mt",
+"capital": [
+"Valletta"
+],
+"lang": [
+"English",
+"Maltese"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 316,
+"native": [
+"Malta",
+"Malta"
+],
+"latlng": [
+35.83333333,
+14.58333333
+]
+},
+"Moldova": {
+"cca3": "MDA",
+"ccn3": "498",
+"cca2": "md",
+"capital": [
+"Chișinău"
+],
+"lang": [
+"Moldavian"
+],
+"cur": [
+"Moldovan leu (MDL)"
+],
+"area": 33846,
+"native": [
+"Moldova"
+],
+"latlng": [
+47,
+29
+]
+},
+"Monaco": {
+"cca3": "MCO",
+"ccn3": "492",
+"cca2": "mc",
+"capital": [
+"Monaco"
+],
+"lang": [
+"French"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 2.02,
+"native": [
+"Monaco"
+],
+"latlng": [
+43.73333333,
+7.4
+]
+},
+"Montenegro": {
+"cca3": "MNE",
+"ccn3": "499",
+"cca2": "me",
+"capital": [
+"Podgorica"
+],
+"lang": [
+"Montenegrin"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 13812,
+"native": [
+"Црна Гора"
+],
+"latlng": [
+42.5,
+19.3
+]
+},
+"Netherlands": {
+"cca3": "NLD",
+"ccn3": "528",
+"cca2": "nl",
+"capital": [
+"Amsterdam"
+],
+"lang": [
+"Dutch"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 41850,
+"native": [
+"Nederland"
+],
+"latlng": [
+52.5,
+5.75
+]
+},
+"North Macedonia": {
+"cca3": "MKD",
+"ccn3": "807",
+"cca2": "mk",
+"capital": [
+"Skopje"
+],
+"lang": [
+"Macedonian"
+],
+"cur": [
+"denar (MKD)"
+],
+"area": 25713,
+"native": [
+"Македонија"
+],
+"latlng": [
+41.83333333,
+22
+]
+},
+"Norway": {
+"cca3": "NOR",
+"ccn3": "578",
+"cca2": "no",
+"capital": [
+"Oslo"
+],
+"lang": [
+"Norwegian Nynorsk",
+"Norwegian Bokmål",
+"Sami"
+],
+"cur": [
+"Norwegian krone (NOK)"
+],
+"area": 323802,
+"native": [
+"Noreg",
+"Norge",
+"Norgga"
+],
+"latlng": [
+62,
+10
+]
+},
+"Poland": {
+"cca3": "POL",
+"ccn3": "616",
+"cca2": "pl",
+"capital": [
+"Warsaw"
+],
+"lang": [
+"Polish"
+],
+"cur": [
+"Polish złoty (PLN)"
+],
+"area": 312679,
+"native": [
+"Polska"
+],
+"latlng": [
+52,
+20
+]
+},
+"Portugal": {
+"cca3": "PRT",
+"ccn3": "620",
+"cca2": "pt",
+"capital": [
+"Lisbon"
+],
+"lang": [
+"Portuguese"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 92090,
+"native": [
+"Portugal"
+],
+"latlng": [
+39.5,
+-8
+]
+},
+"Romania": {
+"cca3": "ROU",
+"ccn3": "642",
+"cca2": "ro",
+"capital": [
+"Bucharest"
+],
+"lang": [
+"Romanian"
+],
+"cur": [
+"Romanian leu (RON)"
+],
+"area": 238391,
+"native": [
+"România"
+],
+"latlng": [
+46,
+25
+]
+},
+"Russia": {
+"cca3": "RUS",
+"ccn3": "643",
+"cca2": "ru",
+"capital": [
+"Moscow"
+],
+"lang": [
+"Russian"
+],
+"cur": [
+"Russian ruble (RUB)"
+],
+"area": 17098242,
+"native": [
+"Россия"
+],
+"latlng": [
+60,
+100
+]
+},
+"San Marino": {
+"cca3": "SMR",
+"ccn3": "674",
+"cca2": "sm",
+"capital": [
+"City of San Marino"
+],
+"lang": [
+"Italian"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 61,
+"native": [
+"San Marino"
+],
+"latlng": [
+43.76666666,
+12.41666666
+]
+},
+"Serbia": {
+"cca3": "SRB",
+"ccn3": "688",
+"cca2": "rs",
+"capital": [
+"Belgrade"
+],
+"lang": [
+"Serbian"
+],
+"cur": [
+"Serbian dinar (RSD)"
+],
+"area": 88361,
+"native": [
+"Србија"
+],
+"latlng": [
+44,
+21
+]
+},
+"Slovakia": {
+"cca3": "SVK",
+"ccn3": "703",
+"cca2": "sk",
+"capital": [
+"Bratislava"
+],
+"lang": [
+"Slovak"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 49037,
+"native": [
+"Slovensko"
+],
+"latlng": [
+48.66666666,
+19.5
+]
+},
+"Slovenia": {
+"cca3": "SVN",
+"ccn3": "705",
+"cca2": "si",
+"capital": [
+"Ljubljana"
+],
+"lang": [
+"Slovene"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 20273,
+"native": [
+"Slovenija"
+],
+"latlng": [
+46.11666666,
+14.81666666
+]
+},
+"Spain": {
+"cca3": "ESP",
+"ccn3": "724",
+"cca2": "es",
+"capital": [
+"Madrid"
+],
+"lang": [
+"Spanish"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 505992,
+"native": [
+"España"
+],
+"latlng": [
+40,
+-4
+]
+},
+"Sweden": {
+"cca3": "SWE",
+"ccn3": "752",
+"cca2": "se",
+"capital": [
+"Stockholm"
+],
+"lang": [
+"Swedish"
+],
+"cur": [
+"Swedish krona (SEK)"
+],
+"area": 450295,
+"native": [
+"Sverige"
+],
+"latlng": [
+62,
+15
+]
+},
+"Switzerland": {
+"cca3": "CHE",
+"ccn3": "756",
+"cca2": "ch",
+"capital": [
+"Bern"
+],
+"lang": [
+"French",
+"Swiss German",
+"Italian",
+"Romansh"
+],
+"cur": [
+"Swiss franc (CHF)"
+],
+"area": 41284,
+"native": [
+"Suisse",
+"Schweiz",
+"Svizzera",
+"Svizra"
+],
+"latlng": [
+47,
+8
+]
+},
+"Ukraine": {
+"cca3": "UKR",
+"ccn3": "804",
+"cca2": "ua",
+"capital": [
+"Kyiv"
+],
+"lang": [
+"Ukrainian"
+],
+"cur": [
+"Ukrainian hryvnia (UAH)"
+],
+"area": 603500,
+"native": [
+"Україна"
+],
+"latlng": [
+49,
+32
+]
+},
+"United Kingdom": {
+"cca3": "GBR",
+"ccn3": "826",
+"cca2": "gb",
+"capital": [
+"London"
+],
+"lang": [
+"English"
+],
+"cur": [
+"British pound (GBP)"
+],
+"area": 242900,
+"native": [
+"United Kingdom"
+],
+"latlng": [
+54,
+-2
+]
+},
+"Algeria": {
+"cca3": "DZA",
+"ccn3": "012",
+"cca2": "dz",
+"capital": [
+"Algiers"
+],
+"lang": [
+"Arabic"
+],
+"cur": [
+"Algerian dinar (DZD)"
+],
+"area": 2381741,
+"native": [
+"الجزائر"
+],
+"latlng": [
+28,
+3
+]
+},
+"Angola": {
+"cca3": "AGO",
+"ccn3": "024",
+"cca2": "ao",
+"capital": [
+"Luanda"
+],
+"lang": [
+"Portuguese"
+],
+"cur": [
+"Angolan kwanza (AOA)"
+],
+"area": 1246700,
+"native": [
+"Angola"
+],
+"latlng": [
+-12.5,
+18.5
+]
+},
+"Benin": {
+"cca3": "BEN",
+"ccn3": "204",
+"cca2": "bj",
+"capital": [
+"Porto-Novo"
+],
+"lang": [
+"French"
+],
+"cur": [
+"West African CFA franc (XOF)"
+],
+"area": 112622,
+"native": [
+"Bénin"
+],
+"latlng": [
+9.5,
+2.25
+]
+},
+"Botswana": {
+"cca3": "BWA",
+"ccn3": "072",
+"cca2": "bw",
+"capital": [
+"Gaborone"
+],
+"lang": [
+"English",
+"Tswana"
+],
+"cur": [
+"Botswana pula (BWP)"
+],
+"area": 582000,
+"native": [
+"Botswana",
+"Botswana"
+],
+"latlng": [
+-22,
+24
+]
+},
+"Burkina Faso": {
+"cca3": "BFA",
+"ccn3": "854",
+"cca2": "bf",
+"capital": [
+"Ouagadougou"
+],
+"lang": [
+"French"
+],
+"cur": [
+"West African CFA franc (XOF)"
+],
+"area": 272967,
+"native": [
+"Burkina Faso"
+],
+"latlng": [
+13,
+-2
+]
+},
+"Burundi": {
+"cca3": "BDI",
+"ccn3": "108",
+"cca2": "bi",
+"capital": [
+"Gitega"
+],
+"lang": [
+"French",
+"Kirundi"
+],
+"cur": [
+"Burundian franc (BIF)"
+],
+"area": 27834,
+"native": [
+"Burundi",
+"Uburundi"
+],
+"latlng": [
+-3.5,
+30
+]
+},
+"Cabo Verde": {
+"cca3": "CPV",
+"ccn3": "132",
+"cca2": "cv",
+"capital": [
+"Praia"
+],
+"lang": [
+"Portuguese"
+],
+"cur": [
+"Cape Verdean escudo (CVE)"
+],
+"area": 4033,
+"native": [
+"Cabo Verde"
+],
+"latlng": [
+16,
+-24
+]
+},
+"Cameroon": {
+"cca3": "CMR",
+"ccn3": "120",
+"cca2": "cm",
+"capital": [
+"Yaoundé"
+],
+"lang": [
+"English",
+"French"
+],
+"cur": [
+"Central African CFA franc (XAF)"
+],
+"area": 475442,
+"native": [
+"Cameroon",
+"Cameroun"
+],
+"latlng": [
+6,
+12
+]
+},
+"Central African Republic": {
+"cca3": "CAF",
+"ccn3": "140",
+"cca2": "cf",
+"capital": [
+"Bangui"
+],
+"lang": [
+"French",
+"Sango"
+],
+"cur": [
+"Central African CFA franc (XAF)"
+],
+"area": 622984,
+"native": [
+"République centrafricaine",
+"Bêafrîka"
+],
+"latlng": [
+7,
+21
+]
+},
+"Chad": {
+"cca3": "TCD",
+"ccn3": "148",
+"cca2": "td",
+"capital": [
+"N'Djamena"
+],
+"lang": [
+"Arabic",
+"French"
+],
+"cur": [
+"Central African CFA franc (XAF)"
+],
+"area": 1284000,
+"native": [
+"تشاد",
+"Tchad"
+],
+"latlng": [
+15,
+19
+]
+},
+"Comoros": {
+"cca3": "COM",
+"ccn3": "174",
+"cca2": "km",
+"capital": [
+"Moroni"
+],
+"lang": [
+"Arabic",
+"French",
+"Comorian"
+],
+"cur": [
+"Comorian franc (KMF)"
+],
+"area": 1862,
+"native": [
+"جزر القمر",
+"Comores",
+"Komori"
+],
+"latlng": [
+-12.16666666,
+44.25
+]
+},
+"Congo": {
+"cca3": "COG",
+"ccn3": "178",
+"cca2": "cg",
+"capital": [
+"Brazzaville"
+],
+"lang": [
+"French",
+"Kikongo",
+"Lingala"
+],
+"cur": [
+"Central African CFA franc (XAF)"
+],
+"area": 342000,
+"native": [
+"République du Congo",
+"Repubilika ya Kongo",
+"Republíki ya Kongó"
+],
+"latlng": [
+-1,
+15
+]
+},
+"Côte d'Ivoire": {
+"cca3": "CIV",
+"ccn3": "384",
+"cca2": "ci",
+"capital": [
+"Yamoussoukro"
+],
+"lang": [
+"French"
+],
+"cur": [
+"West African CFA franc (XOF)"
+],
+"area": 322463,
+"native": [
+"Côte d'Ivoire"
+],
+"latlng": [
+8,
+-5
+]
+},
+"Democratic Republic of the Congo": {
+"cca3": "COD",
+"ccn3": "180",
+"cca2": "cd",
+"capital": [
+"Kinshasa"
+],
+"lang": [
+"French",
+"Kikongo",
+"Lingala",
+"Tshiluba",
+"Swahili"
+],
+"cur": [
+"Congolese franc (CDF)"
+],
+"area": 2344858,
+"native": [
+"RD Congo",
+"Repubilika ya Kongo Demokratiki",
+"Republiki ya Kongó Demokratiki",
+"Ditunga dia Kongu wa Mungalaata",
+"Jamhuri ya Kidemokrasia ya Kongo"
+],
+"latlng": [
+0,
+25
+]
+},
+"Djibouti": {
+"cca3": "DJI",
+"ccn3": "262",
+"cca2": "dj",
+"capital": [
+"Djibouti"
+],
+"lang": [
+"Arabic",
+"French"
+],
+"cur": [
+"Djiboutian franc (DJF)"
+],
+"area": 23200,
+"native": [
+"جيبوتي",
+"Djibouti"
+],
+"latlng": [
+11.5,
+43
+]
+},
+"Egypt": {
+"cca3": "EGY",
+"ccn3": "818",
+"cca2": "eg",
+"capital": [
+"Cairo"
+],
+"lang": [
+"Arabic"
+],
+"cur": [
+"Egyptian pound (EGP)"
+],
+"area": 1002450,
+"native": [
+"مصر"
+],
+"latlng": [
+27,
+30
+]
+},
+"Equatorial Guinea": {
+"cca3": "GNQ",
+"ccn3": "226",
+"cca2": "gq",
+"capital": [
+"Malabo"
+],
+"lang": [
+"French",
+"Portuguese",
+"Spanish"
+],
+"cur": [
+"Central African CFA franc (XAF)"
+],
+"area": 28051,
+"native": [
+"Guinée équatoriale",
+"Guiné Equatorial",
+"Guinea Ecuatorial"
+],
+"latlng": [
+2,
+10
+]
+},
+"Eritrea": {
+"cca3": "ERI",
+"ccn3": "232",
+"cca2": "er",
+"capital": [
+"Asmara"
+],
+"lang": [
+"Arabic",
+"English",
+"Tigrinya"
+],
+"cur": [
+"Eritrean nakfa (ERN)"
+],
+"area": 117600,
+"native": [
+"إريتريا",
+"Eritrea",
+"ኤርትራ"
+],
+"latlng": [
+15,
+39
+]
+},
+"Eswatini": {
+"cca3": "SWZ",
+"ccn3": "748",
+"cca2": "sz",
+"capital": [
+"Lobamba"
+],
+"lang": [
+"English",
+"Swazi"
+],
+"cur": [
+"Swazi lilangeni (SZL)",
+"South African rand (ZAR)"
+],
+"area": 17364,
+"native": [
+"Eswatini",
+"eSwatini"
+],
+"latlng": [
+-26.5,
+31.5
+]
+},
+"Ethiopia": {
+"cca3": "ETH",
+"ccn3": "231",
+"cca2": "et",
+"capital": [
+"Addis Ababa"
+],
+"lang": [
+"Amharic"
+],
+"cur": [
+"Ethiopian birr (ETB)"
+],
+"area": 1104300,
+"native": [
+"ኢትዮጵያ"
+],
+"latlng": [
+8,
+38
+]
+},
+"Gabon": {
+"cca3": "GAB",
+"ccn3": "266",
+"cca2": "ga",
+"capital": [
+"Libreville"
+],
+"lang": [
+"French"
+],
+"cur": [
+"Central African CFA franc (XAF)"
+],
+"area": 267668,
+"native": [
+"Gabon"
+],
+"latlng": [
+-1,
+11.75
+]
+},
+"Gambia": {
+"cca3": "GMB",
+"ccn3": "270",
+"cca2": "gm",
+"capital": [
+"Banjul"
+],
+"lang": [
+"English"
+],
+"cur": [
+"dalasi (GMD)"
+],
+"area": 10689,
+"native": [
+"Gambia"
+],
+"latlng": [
+13.46666666,
+-16.56666666
+]
+},
+"Ghana": {
+"cca3": "GHA",
+"ccn3": "288",
+"cca2": "gh",
+"capital": [
+"Accra"
+],
+"lang": [
+"English"
+],
+"cur": [
+"Ghanaian cedi (GHS)"
+],
+"area": 238533,
+"native": [
+"Ghana"
+],
+"latlng": [
+8,
+-2
+]
+},
+"Guinea": {
+"cca3": "GIN",
+"ccn3": "324",
+"cca2": "gn",
+"capital": [
+"Conakry"
+],
+"lang": [
+"French"
+],
+"cur": [
+"Guinean franc (GNF)"
+],
+"area": 245857,
+"native": [
+"Guinée"
+],
+"latlng": [
+11,
+-10
+]
+},
+"Guinea-Bissau": {
+"cca3": "GNB",
+"ccn3": "624",
+"cca2": "gw",
+"capital": [
+"Bissau"
+],
+"lang": [
+"Portuguese",
+"Upper Guinea Creole"
+],
+"cur": [
+"West African CFA franc (XOF)"
+],
+"area": 36125,
+"native": [
+"Guiné-Bissau",
+"Guiné-Bissau"
+],
+"latlng": [
+12,
+-15
+]
+},
+"Kenya": {
+"cca3": "KEN",
+"ccn3": "404",
+"cca2": "ke",
+"capital": [
+"Nairobi"
+],
+"lang": [
+"English",
+"Swahili"
+],
+"cur": [
+"Kenyan shilling (KES)"
+],
+"area": 580367,
+"native": [
+"Kenya",
+"Kenya"
+],
+"latlng": [
+1,
+38
+]
+},
+"Lesotho": {
+"cca3": "LSO",
+"ccn3": "426",
+"cca2": "ls",
+"capital": [
+"Maseru"
+],
+"lang": [
+"English",
+"Sotho"
+],
+"cur": [
+"Lesotho loti (LSL)",
+"South African rand (ZAR)"
+],
+"area": 30355,
+"native": [
+"Lesotho",
+"Lesotho"
+],
+"latlng": [
+-29.5,
+28.5
+]
+},
+"Liberia": {
+"cca3": "LBR",
+"ccn3": "430",
+"cca2": "lr",
+"capital": [
+"Monrovia"
+],
+"lang": [
+"English"
+],
+"cur": [
+"Liberian dollar (LRD)"
+],
+"area": 111369,
+"native": [
+"Liberia"
+],
+"latlng": [
+6.5,
+-9.5
+]
+},
+"Libya": {
+"cca3": "LBY",
+"ccn3": "434",
+"cca2": "ly",
+"capital": [
+"Tripoli"
+],
+"lang": [
+"Arabic"
+],
+"cur": [
+"Libyan dinar (LYD)"
+],
+"area": 1759540,
+"native": [
+"ليبيا"
+],
+"latlng": [
+25,
+17
+]
+},
+"Madagascar": {
+"cca3": "MDG",
+"ccn3": "450",
+"cca2": "mg",
+"capital": [
+"Antananarivo"
+],
+"lang": [
+"French",
+"Malagasy"
+],
+"cur": [
+"Malagasy ariary (MGA)"
+],
+"area": 587041,
+"native": [
+"Madagascar",
+"Madagasikara"
+],
+"latlng": [
+-20,
+47
+]
+},
+"Malawi": {
+"cca3": "MWI",
+"ccn3": "454",
+"cca2": "mw",
+"capital": [
+"Lilongwe"
+],
+"lang": [
+"English",
+"Chewa"
+],
+"cur": [
+"Malawian kwacha (MWK)"
+],
+"area": 118484,
+"native": [
+"Malawi",
+"Malaŵi"
+],
+"latlng": [
+-13.5,
+34
+]
+},
+"Mali": {
+"cca3": "MLI",
+"ccn3": "466",
+"cca2": "ml",
+"capital": [
+"Bamako"
+],
+"lang": [
+"French"
+],
+"cur": [
+"West African CFA franc (XOF)"
+],
+"area": 1240192,
+"native": [
+"Mali"
+],
+"latlng": [
+17,
+-4
+]
+},
+"Mauritania": {
+"cca3": "MRT",
+"ccn3": "478",
+"cca2": "mr",
+"capital": [
+"Nouakchott"
+],
+"lang": [
+"Arabic"
+],
+"cur": [
+"Mauritanian ouguiya (MRU)"
+],
+"area": 1030700,
+"native": [
+"موريتانيا"
+],
+"latlng": [
+20,
+-12
+]
+},
+"Mauritius": {
+"cca3": "MUS",
+"ccn3": "480",
+"cca2": "mu",
+"capital": [
+"Port Louis"
+],
+"lang": [
+"English",
+"French",
+"Mauritian Creole"
+],
+"cur": [
+"Mauritian rupee (MUR)"
+],
+"area": 2040,
+"native": [
+"Mauritius",
+"Maurice",
+"Moris"
+],
+"latlng": [
+-20.28333333,
+57.55
+]
+},
+"Morocco": {
+"cca3": "MAR",
+"ccn3": "504",
+"cca2": "ma",
+"capital": [
+"Rabat"
+],
+"lang": [
+"Arabic",
+"Berber"
+],
+"cur": [
+"Moroccan dirham (MAD)"
+],
+"area": 446550,
+"native": [
+"المغرب",
+"ⵍⵎⴰⵖⵔⵉⴱ"
+],
+"latlng": [
+32,
+-5
+]
+},
+"Mozambique": {
+"cca3": "MOZ",
+"ccn3": "508",
+"cca2": "mz",
+"capital": [
+"Maputo"
+],
+"lang": [
+"Portuguese"
+],
+"cur": [
+"Mozambican metical (MZN)"
+],
+"area": 801590,
+"native": [
+"Moçambique"
+],
+"latlng": [
+-18.25,
+35
+]
+},
+"Namibia": {
+"cca3": "NAM",
+"ccn3": "516",
+"cca2": "na",
+"capital": [
+"Windhoek"
+],
+"lang": [
+"Afrikaans",
+"German",
+"English",
+"Herero",
+"Khoekhoe",
+"Kwangali",
+"Lozi",
+"Ndonga",
+"Tswana"
+],
+"cur": [
+"Namibian dollar (NAD)",
+"South African rand (ZAR)"
+],
+"area": 825615,
+"native": [
+"Namibië",
+"Namibia",
+"Namibia",
+"Namibia",
+"Namibia",
+"Namibia",
+"Namibia",
+"Namibia",
+"Namibia"
+],
+"latlng": [
+-22,
+17
+]
+},
+"Niger": {
+"cca3": "NER",
+"ccn3": "562",
+"cca2": "ne",
+"capital": [
+"Niamey"
+],
+"lang": [
+"French"
+],
+"cur": [
+"West African CFA franc (XOF)"
+],
+"area": 1267000,
+"native": [
+"Niger"
+],
+"latlng": [
+16,
+8
+]
+},
+"Nigeria": {
+"cca3": "NGA",
+"ccn3": "566",
+"cca2": "ng",
+"capital": [
+"Abuja"
+],
+"lang": [
+"English"
+],
+"cur": [
+"Nigerian naira (NGN)"
+],
+"area": 923768,
+"native": [
+"Nigeria"
+],
+"latlng": [
+10,
+8
+]
+},
+"Rwanda": {
+"cca3": "RWA",
+"ccn3": "646",
+"cca2": "rw",
+"capital": [
+"Kigali"
+],
+"lang": [
+"English",
+"French",
+"Kinyarwanda"
+],
+"cur": [
+"Rwandan franc (RWF)"
+],
+"area": 26338,
+"native": [
+"Rwanda",
+"Rwanda",
+"Rwanda"
+],
+"latlng": [
+-2,
+30
+]
+},
+"Sao Tome and Principe": {
+"cca3": "STP",
+"ccn3": "678",
+"cca2": "st",
+"capital": [
+"São Tomé"
+],
+"lang": [
+"Portuguese"
+],
+"cur": [
+"São Tomé and Príncipe dobra (STN)"
+],
+"area": 964,
+"native": [
+"São Tomé e Príncipe"
+],
+"latlng": [
+1,
+7
+]
+},
+"Senegal": {
+"cca3": "SEN",
+"ccn3": "686",
+"cca2": "sn",
+"capital": [
+"Dakar"
+],
+"lang": [
+"French"
+],
+"cur": [
+"West African CFA franc (XOF)"
+],
+"area": 196722,
+"native": [
+"Sénégal"
+],
+"latlng": [
+14,
+-14
+]
+},
+"Seychelles": {
+"cca3": "SYC",
+"ccn3": "690",
+"cca2": "sc",
+"capital": [
+"Victoria"
+],
+"lang": [
+"Seychellois Creole",
+"English",
+"French"
+],
+"cur": [
+"Seychellois rupee (SCR)"
+],
+"area": 452,
+"native": [
+"Sesel",
+"Seychelles",
+"Seychelles"
+],
+"latlng": [
+-4.58333333,
+55.66666666
+]
+},
+"Sierra Leone": {
+"cca3": "SLE",
+"ccn3": "694",
+"cca2": "sl",
+"capital": [
+"Freetown"
+],
+"lang": [
+"English"
+],
+"cur": [
+"Sierra Leonean leone (SLE)"
+],
+"area": 71740,
+"native": [
+"Sierra Leone"
+],
+"latlng": [
+8.5,
+-11.5
+]
+},
+"Somalia": {
+"cca3": "SOM",
+"ccn3": "706",
+"cca2": "so",
+"capital": [
+"Mogadishu"
+],
+"lang": [
+"Arabic",
+"Somali"
+],
+"cur": [
+"Somali shilling (SOS)"
+],
+"area": 637657,
+"native": [
+"الصومال",
+"Soomaaliya"
+],
+"latlng": [
+10,
+49
+]
+},
+"South Africa": {
+"cca3": "ZAF",
+"ccn3": "710",
+"cca2": "za",
+"capital": [
+"Pretoria",
+"Bloemfontein",
+"Cape Town"
+],
+"lang": [
+"Afrikaans",
+"English",
+"Southern Ndebele",
+"Northern Sotho",
+"Southern Sotho",
+"Swazi",
+"Tswana",
+"Tsonga",
+"Venda",
+"Xhosa",
+"Zulu"
+],
+"cur": [
+"South African rand (ZAR)"
+],
+"area": 1221037,
+"native": [
+"South Africa",
+"South Africa",
+"Sewula Afrika",
+"Afrika-Borwa",
+"Afrika Borwa",
+"Ningizimu Afrika",
+"Aforika Borwa",
+"Afrika Dzonga",
+"Afurika Tshipembe",
+"Mzantsi Afrika",
+"Ningizimu Afrika"
+],
+"latlng": [
+-29,
+24
+]
+},
+"South Sudan": {
+"cca3": "SSD",
+"ccn3": "728",
+"cca2": "ss",
+"capital": [
+"Juba"
+],
+"lang": [
+"English"
+],
+"cur": [
+"South Sudanese pound (SSP)"
+],
+"area": 619745,
+"native": [
+"South Sudan"
+],
+"latlng": [
+7,
+30
+]
+},
+"Sudan": {
+"cca3": "SDN",
+"ccn3": "729",
+"cca2": "sd",
+"capital": [
+"Khartoum"
+],
+"lang": [
+"Arabic",
+"English"
+],
+"cur": [
+"Sudanese pound (SDG)"
+],
+"area": 1886068,
+"native": [
+"السودان",
+"Sudan"
+],
+"latlng": [
+15,
+30
+]
+},
+"Tanzania": {
+"cca3": "TZA",
+"ccn3": "834",
+"cca2": "tz",
+"capital": [
+"Dodoma"
+],
+"lang": [
+"English",
+"Swahili"
+],
+"cur": [
+"Tanzanian shilling (TZS)"
+],
+"area": 945087,
+"native": [
+"Tanzania",
+"Tanzania"
+],
+"latlng": [
+-6,
+35
+]
+},
+"Togo": {
+"cca3": "TGO",
+"ccn3": "768",
+"cca2": "tg",
+"capital": [
+"Lomé"
+],
+"lang": [
+"French"
+],
+"cur": [
+"West African CFA franc (XOF)"
+],
+"area": 56785,
+"native": [
+"Togo"
+],
+"latlng": [
+8,
+1.16666666
+]
+},
+"Tunisia": {
+"cca3": "TUN",
+"ccn3": "788",
+"cca2": "tn",
+"capital": [
+"Tunis"
+],
+"lang": [
+"Arabic"
+],
+"cur": [
+"Tunisian dinar (TND)"
+],
+"area": 163610,
+"native": [
+"تونس"
+],
+"latlng": [
+34,
+9
+]
+},
+"Uganda": {
+"cca3": "UGA",
+"ccn3": "800",
+"cca2": "ug",
+"capital": [
+"Kampala"
+],
+"lang": [
+"English",
+"Swahili"
+],
+"cur": [
+"Ugandan shilling (UGX)"
+],
+"area": 241550,
+"native": [
+"Uganda",
+"Uganda"
+],
+"latlng": [
+1,
+32
+]
+},
+"Zambia": {
+"cca3": "ZMB",
+"ccn3": "894",
+"cca2": "zm",
+"capital": [
+"Lusaka"
+],
+"lang": [
+"English"
+],
+"cur": [
+"Zambian kwacha (ZMW)"
+],
+"area": 752612,
+"native": [
+"Zambia"
+],
+"latlng": [
+-15,
+30
+]
+},
+"Zimbabwe": {
+"cca3": "ZWE",
+"ccn3": "716",
+"cca2": "zw",
+"capital": [
+"Harare"
+],
+"lang": [
+"Chibarwe",
+"English",
+"Kalanga",
+"Khoisan",
+"Ndau",
+"Northern Ndebele",
+"Chewa",
+"Shona",
+"Sotho",
+"Tonga",
+"Tswana",
+"Tsonga",
+"Venda",
+"Xhosa",
+"Zimbabwean Sign Language"
+],
+"cur": [
+"Botswana pula (BWP)",
+"Chinese yuan (CNY)",
+"Euro (EUR)",
+"British pound (GBP)",
+"Indian rupee (INR)",
+"Japanese yen (JPY)",
+"United States dollar (USD)",
+"South African rand (ZAR)",
+"Zimbabwean bonds (ZWB)"
+],
+"area": 390757,
+"native": [
+"Zimbabwe",
+"Zimbabwe",
+"Zimbabwe",
+"Zimbabwe",
+"Zimbabwe",
+"Zimbabwe",
+"Zimbabwe",
+"Zimbabwe",
+"Zimbabwe",
+"Zimbabwe",
+"Zimbabwe",
+"Zimbabwe",
+"Zimbabwe",
+"Zimbabwe",
+"Zimbabwe"
+],
+"latlng": [
+-20,
+30
+]
+},
+"Afghanistan": {
+"cca3": "AFG",
+"ccn3": "004",
+"cca2": "af",
+"capital": [
+"Kabul"
+],
+"lang": [
+"Dari",
+"Pashto",
+"Turkmen"
+],
+"cur": [
+"Afghan afghani (AFN)"
+],
+"area": 652230,
+"native": [
+"افغانستان",
+"افغانستان",
+"Owganystan"
+],
+"latlng": [
+33,
+65
+]
+},
+"Armenia": {
+"cca3": "ARM",
+"ccn3": "051",
+"cca2": "am",
+"capital": [
+"Yerevan"
+],
+"lang": [
+"Armenian"
+],
+"cur": [
+"Armenian dram (AMD)"
+],
+"area": 29743,
+"native": [
+"Հայաստան"
+],
+"latlng": [
+40,
+45
+]
+},
+"Azerbaijan": {
+"cca3": "AZE",
+"ccn3": "031",
+"cca2": "az",
+"capital": [
+"Baku"
+],
+"lang": [
+"Azerbaijani",
+"Russian"
+],
+"cur": [
+"Azerbaijani manat (AZN)"
+],
+"area": 86600,
+"native": [
+"Azərbaycan",
+"Азербайджан"
+],
+"latlng": [
+40.5,
+47.5
+]
+},
+"Bahrain": {
+"cca3": "BHR",
+"ccn3": "048",
+"cca2": "bh",
+"capital": [
+"Manama"
+],
+"lang": [
+"Arabic"
+],
+"cur": [
+"Bahraini dinar (BHD)"
+],
+"area": 765,
+"native": [
+"البحرين"
+],
+"latlng": [
+26,
+50.55
+]
+},
+"Bangladesh": {
+"cca3": "BGD",
+"ccn3": "050",
+"cca2": "bd",
+"capital": [
+"Dhaka"
+],
+"lang": [
+"Bengali"
+],
+"cur": [
+"Bangladeshi taka (BDT)"
+],
+"area": 147570,
+"native": [
+"বাংলাদেশ"
+],
+"latlng": [
+24,
+90
+]
+},
+"Bhutan": {
+"cca3": "BTN",
+"ccn3": "064",
+"cca2": "bt",
+"capital": [
+"Thimphu"
+],
+"lang": [
+"Dzongkha"
+],
+"cur": [
+"Bhutanese ngultrum (BTN)",
+"Indian rupee (INR)"
+],
+"area": 38394,
+"native": [
+"འབྲུག་ཡུལ་"
+],
+"latlng": [
+27.5,
+90.5
+]
+},
+"Brunei": {
+"cca3": "BRN",
+"ccn3": "096",
+"cca2": "bn",
+"capital": [
+"Bandar Seri Begawan"
+],
+"lang": [
+"Malay"
+],
+"cur": [
+"Brunei dollar (BND)",
+"Singapore dollar (SGD)"
+],
+"area": 5765,
+"native": [
+"Negara Brunei Darussalam"
+],
+"latlng": [
+4.5,
+114.66666666
+]
+},
+"Cambodia": {
+"cca3": "KHM",
+"ccn3": "116",
+"cca2": "kh",
+"capital": [
+"Phnom Penh"
+],
+"lang": [
+"Khmer"
+],
+"cur": [
+"Cambodian riel (KHR)",
+"United States dollar (USD)"
+],
+"area": 181035,
+"native": [
+"Kâmpŭchéa"
+],
+"latlng": [
+13,
+105
+]
+},
+"China": {
+"cca3": "CHN",
+"ccn3": "156",
+"cca2": "cn",
+"capital": [
+"Beijing"
+],
+"lang": [
+"Chinese"
+],
+"cur": [
+"Chinese yuan (CNY)"
+],
+"area": 9706961,
+"native": [
+"中国"
+],
+"latlng": [
+35,
+105
+]
+},
+"Cyprus": {
+"cca3": "CYP",
+"ccn3": "196",
+"cca2": "cy",
+"capital": [
+"Nicosia"
+],
+"lang": [
+"Greek",
+"Turkish"
+],
+"cur": [
+"Euro (EUR)"
+],
+"area": 9251,
+"native": [
+"Κύπρος",
+"Kıbrıs"
+],
+"latlng": [
+35,
+33
+]
+},
+"Georgia": {
+"cca3": "GEO",
+"ccn3": "268",
+"cca2": "ge",
+"capital": [
+"Tbilisi"
+],
+"lang": [
+"Georgian"
+],
+"cur": [
+"lari (GEL)"
+],
+"area": 69700,
+"native": [
+"საქართველო"
+],
+"latlng": [
+42,
+43.5
+]
+},
+"India": {
+"cca3": "IND",
+"ccn3": "356",
+"cca2": "in",
+"capital": [
+"New Delhi"
+],
+"lang": [
+"English",
+"Hindi",
+"Tamil"
+],
+"cur": [
+"Indian rupee (INR)"
+],
+"area": 3287590,
+"native": [
+"India",
+"भारत",
+"இந்தியா"
+],
+"latlng": [
+20,
+77
+]
+},
+"Indonesia": {
+"cca3": "IDN",
+"ccn3": "360",
+"cca2": "id",
+"capital": [
+"Jakarta"
+],
+"lang": [
+"Indonesian"
+],
+"cur": [
+"Indonesian rupiah (IDR)"
+],
+"area": 1904569,
+"native": [
+"Indonesia"
+],
+"latlng": [
+-5,
+120
+]
+},
+"Iran": {
+"cca3": "IRN",
+"ccn3": "364",
+"cca2": "ir",
+"capital": [
+"Tehran"
+],
+"lang": [
+"Persian (Farsi)"
+],
+"cur": [
+"Iranian rial (IRR)"
+],
+"area": 1648195,
+"native": [
+"ایران"
+],
+"latlng": [
+32,
+53
+]
+},
+"Iraq": {
+"cca3": "IRQ",
+"ccn3": "368",
+"cca2": "iq",
+"capital": [
+"Baghdad"
+],
+"lang": [
+"Arabic",
+"Aramaic",
+"Sorani"
+],
+"cur": [
+"Iraqi dinar (IQD)"
+],
+"area": 438317,
+"native": [
+"العراق",
+"ܩܘܼܛܢܵܐ",
+"کۆماری"
+],
+"latlng": [
+33,
+44
+]
+},
+"Israel": {
+"cca3": "ISR",
+"ccn3": "376",
+"cca2": "il",
+"capital": [
+"Jerusalem"
+],
+"lang": [
+"Arabic",
+"Hebrew"
+],
+"cur": [
+"Israeli new shekel (ILS)"
+],
+"area": 20770,
+"native": [
+"إسرائيل",
+"ישראל"
+],
+"latlng": [
+31.47,
+35.13
+]
+},
+"Japan": {
+"cca3": "JPN",
+"ccn3": "392",
+"cca2": "jp",
+"capital": [
+"Tokyo"
+],
+"lang": [
+"Japanese"
+],
+"cur": [
+"Japanese yen (JPY)"
+],
+"area": 377930,
+"native": [
+"日本"
+],
+"latlng": [
+36,
+138
+]
+},
+"Jordan": {
+"cca3": "JOR",
+"ccn3": "400",
+"cca2": "jo",
+"capital": [
+"Amman"
+],
+"lang": [
+"Arabic"
+],
+"cur": [
+"Jordanian dinar (JOD)"
+],
+"area": 89342,
+"native": [
+"الأردن"
+],
+"latlng": [
+31,
+36
+]
+},
+"Kazakhstan": {
+"cca3": "KAZ",
+"ccn3": "398",
+"cca2": "kz",
+"capital": [
+"Astana"
+],
+"lang": [
+"Kazakh",
+"Russian"
+],
+"cur": [
+"Kazakhstani tenge (KZT)"
+],
+"area": 2724900,
+"native": [
+"Қазақстан",
+"Казахстан"
+],
+"latlng": [
+48,
+68
+]
+},
+"Kuwait": {
+"cca3": "KWT",
+"ccn3": "414",
+"cca2": "kw",
+"capital": [
+"Kuwait City"
+],
+"lang": [
+"Arabic"
+],
+"cur": [
+"Kuwaiti dinar (KWD)"
+],
+"area": 17818,
+"native": [
+"الكويت"
+],
+"latlng": [
+29.5,
+45.75
+]
+},
+"Kyrgyzstan": {
+"cca3": "KGZ",
+"ccn3": "417",
+"cca2": "kg",
+"capital": [
+"Bishkek"
+],
+"lang": [
+"Kyrgyz",
+"Russian"
+],
+"cur": [
+"Kyrgyzstani som (KGS)"
+],
+"area": 199951,
+"native": [
+"Кыргызстан",
+"Киргизия"
+],
+"latlng": [
+41,
+75
+]
+},
+"Laos": {
+"cca3": "LAO",
+"ccn3": "418",
+"cca2": "la",
+"capital": [
+"Vientiane"
+],
+"lang": [
+"Lao"
+],
+"cur": [
+"Lao kip (LAK)"
+],
+"area": 236800,
+"native": [
+"ສປປລາວ"
+],
+"latlng": [
+18,
+105
+]
+},
+"Lebanon": {
+"cca3": "LBN",
+"ccn3": "422",
+"cca2": "lb",
+"capital": [
+"Beirut"
+],
+"lang": [
+"Arabic",
+"French"
+],
+"cur": [
+"Lebanese pound (LBP)"
+],
+"area": 10452,
+"native": [
+"لبنان",
+"Liban"
+],
+"latlng": [
+33.83333333,
+35.83333333
+]
+},
+"Malaysia": {
+"cca3": "MYS",
+"ccn3": "458",
+"cca2": "my",
+"capital": [
+"Kuala Lumpur"
+],
+"lang": [
+"English",
+"Malay"
+],
+"cur": [
+"Malaysian ringgit (MYR)"
+],
+"area": 330803,
+"native": [
+"Malaysia",
+"مليسيا"
+],
+"latlng": [
+2.5,
+112.5
+]
+},
+"Maldives": {
+"cca3": "MDV",
+"ccn3": "462",
+"cca2": "mv",
+"capital": [
+"Malé"
+],
+"lang": [
+"Maldivian"
+],
+"cur": [
+"Maldivian rufiyaa (MVR)"
+],
+"area": 300,
+"native": [
+"ދިވެހިރާއްޖޭގެ"
+],
+"latlng": [
+3.25,
+73
+]
+},
+"Mongolia": {
+"cca3": "MNG",
+"ccn3": "496",
+"cca2": "mn",
+"capital": [
+"Ulan Bator"
+],
+"lang": [
+"Mongolian"
+],
+"cur": [
+"Mongolian tögrög (MNT)"
+],
+"area": 1564110,
+"native": [
+"Монгол улс"
+],
+"latlng": [
+46,
+105
+]
+},
+"Myanmar": {
+"cca3": "MMR",
+"ccn3": "104",
+"cca2": "mm",
+"capital": [
+"Naypyidaw"
+],
+"lang": [
+"Burmese"
+],
+"cur": [
+"Burmese kyat (MMK)"
+],
+"area": 676578,
+"native": [
+"မြန်မာ"
+],
+"latlng": [
+22,
+98
+]
+},
+"Nepal": {
+"cca3": "NPL",
+"ccn3": "524",
+"cca2": "np",
+"capital": [
+"Kathmandu"
+],
+"lang": [
+"Nepali"
+],
+"cur": [
+"Nepalese rupee (NPR)"
+],
+"area": 147181,
+"native": [
+"नेपाल"
+],
+"latlng": [
+28,
+84
+]
+},
+"North Korea": {
+"cca3": "PRK",
+"ccn3": "408",
+"cca2": "kp",
+"capital": [
+"Pyongyang"
+],
+"lang": [
+"Korean"
+],
+"cur": [
+"North Korean won (KPW)"
+],
+"area": 120538,
+"native": [
+"조선"
+],
+"latlng": [
+40,
+127
+]
+},
+"Oman": {
+"cca3": "OMN",
+"ccn3": "512",
+"cca2": "om",
+"capital": [
+"Muscat"
+],
+"lang": [
+"Arabic"
+],
+"cur": [
+"Omani rial (OMR)"
+],
+"area": 309500,
+"native": [
+"عمان"
+],
+"latlng": [
+21,
+57
+]
+},
+"Pakistan": {
+"cca3": "PAK",
+"ccn3": "586",
+"cca2": "pk",
+"capital": [
+"Islamabad"
+],
+"lang": [
+"English",
+"Urdu"
+],
+"cur": [
+"Pakistani rupee (PKR)"
+],
+"area": 881912,
+"native": [
+"Pakistan",
+"پاكستان"
+],
+"latlng": [
+30,
+70
+]
+},
+"Palestine": {
+"cca3": "PSE",
+"ccn3": "275",
+"cca2": "ps",
+"capital": [
+"Ramallah"
+],
+"lang": [
+"Arabic"
+],
+"cur": [
+"Egyptian pound (EGP)",
+"Israeli new shekel (ILS)",
+"Jordanian dinar (JOD)"
+],
+"area": 6220,
+"native": [
+"فلسطين"
+],
+"latlng": [
+31.9,
+35.2
+]
+},
+"Philippines": {
+"cca3": "PHL",
+"ccn3": "608",
+"cca2": "ph",
+"capital": [
+"Manila"
+],
+"lang": [
+"English",
+"Filipino"
+],
+"cur": [
+"Philippine peso (PHP)"
+],
+"area": 342353,
+"native": [
+"Philippines",
+"Pilipinas"
+],
+"latlng": [
+13,
+122
+]
+},
+"Qatar": {
+"cca3": "QAT",
+"ccn3": "634",
+"cca2": "qa",
+"capital": [
+"Doha"
+],
+"lang": [
+"Arabic"
+],
+"cur": [
+"Qatari riyal (QAR)"
+],
+"area": 11586,
+"native": [
+"قطر"
+],
+"latlng": [
+25.5,
+51.25
+]
+},
+"Saudi Arabia": {
+"cca3": "SAU",
+"ccn3": "682",
+"cca2": "sa",
+"capital": [
+"Riyadh"
+],
+"lang": [
+"Arabic"
+],
+"cur": [
+"Saudi riyal (SAR)"
+],
+"area": 2149690,
+"native": [
+"السعودية"
+],
+"latlng": [
+25,
+45
+]
+},
+"Singapore": {
+"cca3": "SGP",
+"ccn3": "702",
+"cca2": "sg",
+"capital": [
+"Singapore"
+],
+"lang": [
+"English",
+"Malay",
+"Tamil",
+"Chinese"
+],
+"cur": [
+"Singapore dollar (SGD)"
+],
+"area": 710,
+"native": [
+"Singapore",
+"Singapura",
+"சிங்கப்பூர்",
+"新加坡"
+],
+"latlng": [
+1.36666666,
+103.8
+]
+},
+"South Korea": {
+"cca3": "KOR",
+"ccn3": "410",
+"cca2": "kr",
+"capital": [
+"Seoul"
+],
+"lang": [
+"Korean"
+],
+"cur": [
+"South Korean won (KRW)"
+],
+"area": 100210,
+"native": [
+"한국"
+],
+"latlng": [
+37,
+127.5
+]
+},
+"Sri Lanka": {
+"cca3": "LKA",
+"ccn3": "144",
+"cca2": "lk",
+"capital": [
+"Colombo"
+],
+"lang": [
+"Sinhala",
+"Tamil"
+],
+"cur": [
+"Sri Lankan rupee (LKR)"
+],
+"area": 65610,
+"native": [
+"ශ්‍රී ලංකාව",
+"இலங்கை"
+],
+"latlng": [
+7,
+81
+]
+},
+"Syria": {
+"cca3": "SYR",
+"ccn3": "760",
+"cca2": "sy",
+"capital": [
+"Damascus"
+],
+"lang": [
+"Arabic"
+],
+"cur": [
+"Syrian pound (SYP)"
+],
+"area": 185180,
+"native": [
+"سوريا"
+],
+"latlng": [
+35,
+38
+]
+},
+"Tajikistan": {
+"cca3": "TJK",
+"ccn3": "762",
+"cca2": "tj",
+"capital": [
+"Dushanbe"
+],
+"lang": [
+"Russian",
+"Tajik"
+],
+"cur": [
+"Tajikistani somoni (TJS)"
+],
+"area": 143100,
+"native": [
+"Таджикистан",
+"Тоҷикистон"
+],
+"latlng": [
+39,
+71
+]
+},
+"Thailand": {
+"cca3": "THA",
+"ccn3": "764",
+"cca2": "th",
+"capital": [
+"Bangkok"
+],
+"lang": [
+"Thai"
+],
+"cur": [
+"Thai baht (THB)"
+],
+"area": 513120,
+"native": [
+"ประเทศไทย"
+],
+"latlng": [
+15,
+100
+]
+},
+"Timor-Leste": {
+"cca3": "TLS",
+"ccn3": "626",
+"cca2": "tl",
+"capital": [
+"Dili"
+],
+"lang": [
+"Portuguese",
+"Tetum"
+],
+"cur": [
+"United States dollar (USD)"
+],
+"area": 14874,
+"native": [
+"Timor-Leste",
+"Timór-Leste"
+],
+"latlng": [
+-8.83333333,
+125.91666666
+]
+},
+"Türkiye": {
+"cca3": "TUR",
+"ccn3": "792",
+"cca2": "tr",
+"capital": [
+"Ankara"
+],
+"lang": [
+"Turkish"
+],
+"cur": [
+"Turkish lira (TRY)"
+],
+"area": 783562,
+"native": [
+"Türkiye"
+],
+"latlng": [
+39,
+35
+]
+},
+"Turkmenistan": {
+"cca3": "TKM",
+"ccn3": "795",
+"cca2": "tm",
+"capital": [
+"Ashgabat"
+],
+"lang": [
+"Russian",
+"Turkmen"
+],
+"cur": [
+"Turkmenistan manat (TMT)"
+],
+"area": 488100,
+"native": [
+"Туркмения",
+"Türkmenistan"
+],
+"latlng": [
+40,
+60
+]
+},
+"United Arab Emirates": {
+"cca3": "ARE",
+"ccn3": "784",
+"cca2": "ae",
+"capital": [
+"Abu Dhabi"
+],
+"lang": [
+"Arabic"
+],
+"cur": [
+"United Arab Emirates dirham (AED)"
+],
+"area": 83600,
+"native": [
+"الإمارات"
+],
+"latlng": [
+24,
+54
+]
+},
+"Uzbekistan": {
+"cca3": "UZB",
+"ccn3": "860",
+"cca2": "uz",
+"capital": [
+"Tashkent"
+],
+"lang": [
+"Russian",
+"Uzbek"
+],
+"cur": [
+"Uzbekistani soʻm (UZS)"
+],
+"area": 447400,
+"native": [
+"Узбекистан",
+"O‘zbekiston"
+],
+"latlng": [
+41,
+64
+]
+},
+"Vietnam": {
+"cca3": "VNM",
+"ccn3": "704",
+"cca2": "vn",
+"capital": [
+"Hanoi"
+],
+"lang": [
+"Vietnamese"
+],
+"cur": [
+"Vietnamese đồng (VND)"
+],
+"area": 331212,
+"native": [
+"Việt Nam"
+],
+"latlng": [
+16.16666666,
+107.83333333
+]
+},
+"Yemen": {
+"cca3": "YEM",
+"ccn3": "887",
+"cca2": "ye",
+"capital": [
+"Sana'a"
+],
+"lang": [
+"Arabic"
+],
+"cur": [
+"Yemeni rial (YER)"
+],
+"area": 527968,
+"native": [
+"اليمن"
+],
+"latlng": [
+15,
+48
+]
+},
+"Antigua and Barbuda": {
+"cca3": "ATG",
+"ccn3": "028",
+"cca2": "ag",
+"capital": [
+"Saint John's"
+],
+"lang": [
+"English"
+],
+"cur": [
+"Eastern Caribbean dollar (XCD)"
+],
+"area": 442,
+"native": [
+"Antigua and Barbuda"
+],
+"latlng": [
+17.05,
+-61.8
+]
+},
+"Bahamas": {
+"cca3": "BHS",
+"ccn3": "044",
+"cca2": "bs",
+"capital": [
+"Nassau"
+],
+"lang": [
+"English"
+],
+"cur": [
+"Bahamian dollar (BSD)",
+"United States dollar (USD)"
+],
+"area": 13943,
+"native": [
+"Bahamas"
+],
+"latlng": [
+24.25,
+-76
+]
+},
+"Barbados": {
+"cca3": "BRB",
+"ccn3": "052",
+"cca2": "bb",
+"capital": [
+"Bridgetown"
+],
+"lang": [
+"English"
+],
+"cur": [
+"Barbadian dollar (BBD)"
+],
+"area": 430,
+"native": [
+"Barbados"
+],
+"latlng": [
+13.16666666,
+-59.53333333
+]
+},
+"Belize": {
+"cca3": "BLZ",
+"ccn3": "084",
+"cca2": "bz",
+"capital": [
+"Belmopan"
+],
+"lang": [
+"Belizean Creole",
+"English",
+"Spanish"
+],
+"cur": [
+"Belize dollar (BZD)"
+],
+"area": 22966,
+"native": [
+"Belize",
+"Belize",
+"Belice"
+],
+"latlng": [
+17.25,
+-88.75
+]
+},
+"Canada": {
+"cca3": "CAN",
+"ccn3": "124",
+"cca2": "ca",
+"capital": [
+"Ottawa"
+],
+"lang": [
+"English",
+"French"
+],
+"cur": [
+"Canadian dollar (CAD)"
+],
+"area": 9984670,
+"native": [
+"Canada",
+"Canada"
+],
+"latlng": [
+60,
+-95
+]
+},
+"Costa Rica": {
+"cca3": "CRI",
+"ccn3": "188",
+"cca2": "cr",
+"capital": [
+"San José"
+],
+"lang": [
+"Spanish"
+],
+"cur": [
+"Costa Rican colón (CRC)"
+],
+"area": 51100,
+"native": [
+"Costa Rica"
+],
+"latlng": [
+10,
+-84
+]
+},
+"Cuba": {
+"cca3": "CUB",
+"ccn3": "192",
+"cca2": "cu",
+"capital": [
+"Havana"
+],
+"lang": [
+"Spanish"
+],
+"cur": [
+"Cuban convertible peso (CUC)",
+"Cuban peso (CUP)"
+],
+"area": 109884,
+"native": [
+"Cuba"
+],
+"latlng": [
+21.5,
+-80
+]
+},
+"Dominica": {
+"cca3": "DMA",
+"ccn3": "212",
+"cca2": "dm",
+"capital": [
+"Roseau"
+],
+"lang": [
+"English"
+],
+"cur": [
+"Eastern Caribbean dollar (XCD)"
+],
+"area": 751,
+"native": [
+"Dominica"
+],
+"latlng": [
+15.41666666,
+-61.33333333
+]
+},
+"Dominican Republic": {
+"cca3": "DOM",
+"ccn3": "214",
+"cca2": "do",
+"capital": [
+"Santo Domingo"
+],
+"lang": [
+"Spanish"
+],
+"cur": [
+"Dominican peso (DOP)"
+],
+"area": 48671,
+"native": [
+"República Dominicana"
+],
+"latlng": [
+19,
+-70.66666666
+]
+},
+"El Salvador": {
+"cca3": "SLV",
+"ccn3": "222",
+"cca2": "sv",
+"capital": [
+"San Salvador"
+],
+"lang": [
+"Spanish"
+],
+"cur": [
+"United States dollar (USD)"
+],
+"area": 21041,
+"native": [
+"El Salvador"
+],
+"latlng": [
+13.83333333,
+-88.91666666
+]
+},
+"Grenada": {
+"cca3": "GRD",
+"ccn3": "308",
+"cca2": "gd",
+"capital": [
+"St. George's"
+],
+"lang": [
+"English"
+],
+"cur": [
+"Eastern Caribbean dollar (XCD)"
+],
+"area": 344,
+"native": [
+"Grenada"
+],
+"latlng": [
+12.11666666,
+-61.66666666
+]
+},
+"Guatemala": {
+"cca3": "GTM",
+"ccn3": "320",
+"cca2": "gt",
+"capital": [
+"Guatemala City"
+],
+"lang": [
+"Spanish"
+],
+"cur": [
+"Guatemalan quetzal (GTQ)"
+],
+"area": 108889,
+"native": [
+"Guatemala"
+],
+"latlng": [
+15.5,
+-90.25
+]
+},
+"Haiti": {
+"cca3": "HTI",
+"ccn3": "332",
+"cca2": "ht",
+"capital": [
+"Port-au-Prince"
+],
+"lang": [
+"French",
+"Haitian Creole"
+],
+"cur": [
+"Haitian gourde (HTG)"
+],
+"area": 27750,
+"native": [
+"Haïti",
+"Ayiti"
+],
+"latlng": [
+19,
+-72.41666666
+]
+},
+"Honduras": {
+"cca3": "HND",
+"ccn3": "340",
+"cca2": "hn",
+"capital": [
+"Tegucigalpa"
+],
+"lang": [
+"Spanish"
+],
+"cur": [
+"Honduran lempira (HNL)"
+],
+"area": 112492,
+"native": [
+"Honduras"
+],
+"latlng": [
+15,
+-86.5
+]
+},
+"Jamaica": {
+"cca3": "JAM",
+"ccn3": "388",
+"cca2": "jm",
+"capital": [
+"Kingston"
+],
+"lang": [
+"English",
+"Jamaican Patois"
+],
+"cur": [
+"Jamaican dollar (JMD)"
+],
+"area": 10991,
+"native": [
+"Jamaica",
+"Jamaica"
+],
+"latlng": [
+18.25,
+-77.5
+]
+},
+"Mexico": {
+"cca3": "MEX",
+"ccn3": "484",
+"cca2": "mx",
+"capital": [
+"Mexico City"
+],
+"lang": [
+"Spanish"
+],
+"cur": [
+"Mexican peso (MXN)"
+],
+"area": 1964375,
+"native": [
+"México"
+],
+"latlng": [
+23,
+-102
+]
+},
+"Nicaragua": {
+"cca3": "NIC",
+"ccn3": "558",
+"cca2": "ni",
+"capital": [
+"Managua"
+],
+"lang": [
+"Spanish"
+],
+"cur": [
+"Nicaraguan córdoba (NIO)"
+],
+"area": 130373,
+"native": [
+"Nicaragua"
+],
+"latlng": [
+13,
+-85
+]
+},
+"Panama": {
+"cca3": "PAN",
+"ccn3": "591",
+"cca2": "pa",
+"capital": [
+"Panama City"
+],
+"lang": [
+"Spanish"
+],
+"cur": [
+"Panamanian balboa (PAB)",
+"United States dollar (USD)"
+],
+"area": 75417,
+"native": [
+"Panamá"
+],
+"latlng": [
+9,
+-80
+]
+},
+"Saint Kitts and Nevis": {
+"cca3": "KNA",
+"ccn3": "659",
+"cca2": "kn",
+"capital": [
+"Basseterre"
+],
+"lang": [
+"English"
+],
+"cur": [
+"Eastern Caribbean dollar (XCD)"
+],
+"area": 261,
+"native": [
+"Saint Kitts and Nevis"
+],
+"latlng": [
+17.33333333,
+-62.75
+]
+},
+"Saint Lucia": {
+"cca3": "LCA",
+"ccn3": "662",
+"cca2": "lc",
+"capital": [
+"Castries"
+],
+"lang": [
+"English"
+],
+"cur": [
+"Eastern Caribbean dollar (XCD)"
+],
+"area": 616,
+"native": [
+"Saint Lucia"
+],
+"latlng": [
+13.88333333,
+-60.96666666
+]
+},
+"Saint Vincent and the Grenadines": {
+"cca3": "VCT",
+"ccn3": "670",
+"cca2": "vc",
+"capital": [
+"Kingstown"
+],
+"lang": [
+"English"
+],
+"cur": [
+"Eastern Caribbean dollar (XCD)"
+],
+"area": 389,
+"native": [
+"Saint Vincent and the Grenadines"
+],
+"latlng": [
+13.25,
+-61.2
+]
+},
+"Trinidad and Tobago": {
+"cca3": "TTO",
+"ccn3": "780",
+"cca2": "tt",
+"capital": [
+"Port of Spain"
+],
+"lang": [
+"English"
+],
+"cur": [
+"Trinidad and Tobago dollar (TTD)"
+],
+"area": 5130,
+"native": [
+"Trinidad and Tobago"
+],
+"latlng": [
+11,
+-61
+]
+},
+"United States": {
+"cca3": "USA",
+"ccn3": "840",
+"cca2": "us",
+"capital": [
+"Washington D.C."
+],
+"lang": [
+"English"
+],
+"cur": [
+"United States dollar (USD)"
+],
+"area": 9372610,
+"native": [
+"United States"
+],
+"latlng": [
+38,
+-97
+]
+},
+"Argentina": {
+"cca3": "ARG",
+"ccn3": "032",
+"cca2": "ar",
+"capital": [
+"Buenos Aires"
+],
+"lang": [
+"Guaraní",
+"Spanish"
+],
+"cur": [
+"Argentine peso (ARS)"
+],
+"area": 2780400,
+"native": [
+"Argentina",
+"Argentina"
+],
+"latlng": [
+-34,
+-64
+]
+},
+"Bolivia": {
+"cca3": "BOL",
+"ccn3": "068",
+"cca2": "bo",
+"capital": [
+"Sucre"
+],
+"lang": [
+"Aymara",
+"Guaraní",
+"Quechua",
+"Spanish"
+],
+"cur": [
+"Bolivian boliviano (BOB)"
+],
+"area": 1098581,
+"native": [
+"Wuliwya",
+"Volívia",
+"Buliwya",
+"Bolivia"
+],
+"latlng": [
+-17,
+-65
+]
+},
+"Brazil": {
+"cca3": "BRA",
+"ccn3": "076",
+"cca2": "br",
+"capital": [
+"Brasília"
+],
+"lang": [
+"Portuguese"
+],
+"cur": [
+"Brazilian real (BRL)"
+],
+"area": 8515767,
+"native": [
+"Brasil"
+],
+"latlng": [
+-10,
+-55
+]
+},
+"Chile": {
+"cca3": "CHL",
+"ccn3": "152",
+"cca2": "cl",
+"capital": [
+"Santiago"
+],
+"lang": [
+"Spanish"
+],
+"cur": [
+"Chilean peso (CLP)"
+],
+"area": 756102,
+"native": [
+"Chile"
+],
+"latlng": [
+-30,
+-71
+]
+},
+"Colombia": {
+"cca3": "COL",
+"ccn3": "170",
+"cca2": "co",
+"capital": [
+"Bogotá"
+],
+"lang": [
+"Spanish"
+],
+"cur": [
+"Colombian peso (COP)"
+],
+"area": 1141748,
+"native": [
+"Colombia"
+],
+"latlng": [
+4,
+-72
+]
+},
+"Ecuador": {
+"cca3": "ECU",
+"ccn3": "218",
+"cca2": "ec",
+"capital": [
+"Quito"
+],
+"lang": [
+"Spanish"
+],
+"cur": [
+"United States dollar (USD)"
+],
+"area": 276841,
+"native": [
+"Ecuador"
+],
+"latlng": [
+-2,
+-77.5
+]
+},
+"Guyana": {
+"cca3": "GUY",
+"ccn3": "328",
+"cca2": "gy",
+"capital": [
+"Georgetown"
+],
+"lang": [
+"English"
+],
+"cur": [
+"Guyanese dollar (GYD)"
+],
+"area": 214969,
+"native": [
+"Guyana"
+],
+"latlng": [
+5,
+-59
+]
+},
+"Paraguay": {
+"cca3": "PRY",
+"ccn3": "600",
+"cca2": "py",
+"capital": [
+"Asunción"
+],
+"lang": [
+"Guaraní",
+"Spanish"
+],
+"cur": [
+"Paraguayan guaraní (PYG)"
+],
+"area": 406752,
+"native": [
+"Paraguái",
+"Paraguay"
+],
+"latlng": [
+-23,
+-58
+]
+},
+"Peru": {
+"cca3": "PER",
+"ccn3": "604",
+"cca2": "pe",
+"capital": [
+"Lima"
+],
+"lang": [
+"Aymara",
+"Quechua",
+"Spanish"
+],
+"cur": [
+"Peruvian sol (PEN)"
+],
+"area": 1285216,
+"native": [
+"Piruw",
+"Piruw",
+"Perú"
+],
+"latlng": [
+-10,
+-76
+]
+},
+"Suriname": {
+"cca3": "SUR",
+"ccn3": "740",
+"cca2": "sr",
+"capital": [
+"Paramaribo"
+],
+"lang": [
+"Dutch"
+],
+"cur": [
+"Surinamese dollar (SRD)"
+],
+"area": 163820,
+"native": [
+"Suriname"
+],
+"latlng": [
+4,
+-56
+]
+},
+"Uruguay": {
+"cca3": "URY",
+"ccn3": "858",
+"cca2": "uy",
+"capital": [
+"Montevideo"
+],
+"lang": [
+"Spanish"
+],
+"cur": [
+"Uruguayan peso (UYU)"
+],
+"area": 181034,
+"native": [
+"Uruguay"
+],
+"latlng": [
+-33,
+-56
+]
+},
+"Venezuela": {
+"cca3": "VEN",
+"ccn3": "862",
+"cca2": "ve",
+"capital": [
+"Caracas"
+],
+"lang": [
+"Spanish"
+],
+"cur": [
+"Venezuelan bolívar soberano (VES)"
+],
+"area": 916445,
+"native": [
+"Venezuela"
+],
+"latlng": [
+8,
+-66
+]
+},
+"Australia": {
+"cca3": "AUS",
+"ccn3": "036",
+"cca2": "au",
+"capital": [
+"Canberra"
+],
+"lang": [
+"English"
+],
+"cur": [
+"Australian dollar (AUD)"
+],
+"area": 7692024,
+"native": [
+"Australia"
+],
+"latlng": [
+-27,
+133
+]
+},
+"Fiji": {
+"cca3": "FJI",
+"ccn3": "242",
+"cca2": "fj",
+"capital": [
+"Suva"
+],
+"lang": [
+"English",
+"Fijian",
+"Fiji Hindi"
+],
+"cur": [
+"Fijian dollar (FJD)"
+],
+"area": 18272,
+"native": [
+"Fiji",
+"Viti",
+"फिजी"
+],
+"latlng": [
+-18,
+175
+]
+},
+"Kiribati": {
+"cca3": "KIR",
+"ccn3": "296",
+"cca2": "ki",
+"capital": [
+"South Tarawa"
+],
+"lang": [
+"English",
+"Gilbertese"
+],
+"cur": [
+"Australian dollar (AUD)",
+"Kiribati dollar (KID)"
+],
+"area": 811,
+"native": [
+"Kiribati",
+"Kiribati"
+],
+"latlng": [
+1.41666666,
+173
+]
+},
+"Marshall Islands": {
+"cca3": "MHL",
+"ccn3": "584",
+"cca2": "mh",
+"capital": [
+"Majuro"
+],
+"lang": [
+"English",
+"Marshallese"
+],
+"cur": [
+"United States dollar (USD)"
+],
+"area": 181,
+"native": [
+"Marshall Islands",
+"M̧ajeļ"
+],
+"latlng": [
+9,
+168
+]
+},
+"Micronesia": {
+"cca3": "FSM",
+"ccn3": "583",
+"cca2": "fm",
+"capital": [
+"Palikir"
+],
+"lang": [
+"English"
+],
+"cur": [],
+"area": 702,
+"native": [
+"Micronesia"
+],
+"latlng": [
+6.91666666,
+158.25
+]
+},
+"Nauru": {
+"cca3": "NRU",
+"ccn3": "520",
+"cca2": "nr",
+"capital": [
+"Yaren"
+],
+"lang": [
+"English",
+"Nauru"
+],
+"cur": [
+"Australian dollar (AUD)"
+],
+"area": 21,
+"native": [
+"Nauru",
+"Nauru"
+],
+"latlng": [
+-0.53333333,
+166.91666666
+]
+},
+"New Zealand": {
+"cca3": "NZL",
+"ccn3": "554",
+"cca2": "nz",
+"capital": [
+"Wellington"
+],
+"lang": [
+"English",
+"Māori",
+"New Zealand Sign Language"
+],
+"cur": [
+"New Zealand dollar (NZD)"
+],
+"area": 270467,
+"native": [
+"New Zealand",
+"Aotearoa",
+"New Zealand"
+],
+"latlng": [
+-41,
+174
+]
+},
+"Palau": {
+"cca3": "PLW",
+"ccn3": "585",
+"cca2": "pw",
+"capital": [
+"Ngerulmud"
+],
+"lang": [
+"English",
+"Palauan"
+],
+"cur": [
+"United States dollar (USD)"
+],
+"area": 459,
+"native": [
+"Palau",
+"Belau"
+],
+"latlng": [
+7.5,
+134.5
+]
+},
+"Papua New Guinea": {
+"cca3": "PNG",
+"ccn3": "598",
+"cca2": "pg",
+"capital": [
+"Port Moresby"
+],
+"lang": [
+"English",
+"Hiri Motu",
+"Tok Pisin"
+],
+"cur": [
+"Papua New Guinean kina (PGK)"
+],
+"area": 462840,
+"native": [
+"Papua New Guinea",
+"Papua Niu Gini",
+"Papua Niugini"
+],
+"latlng": [
+-6,
+147
+]
+},
+"Samoa": {
+"cca3": "WSM",
+"ccn3": "882",
+"cca2": "ws",
+"capital": [
+"Apia"
+],
+"lang": [
+"English",
+"Samoan"
+],
+"cur": [
+"Samoan tālā (WST)"
+],
+"area": 2842,
+"native": [
+"Samoa",
+"Sāmoa"
+],
+"latlng": [
+-13.58333333,
+-172.33333333
+]
+},
+"Solomon Islands": {
+"cca3": "SLB",
+"ccn3": "090",
+"cca2": "sb",
+"capital": [
+"Honiara"
+],
+"lang": [
+"English"
+],
+"cur": [
+"Solomon Islands dollar (SBD)"
+],
+"area": 28896,
+"native": [
+"Solomon Islands"
+],
+"latlng": [
+-8,
+159
+]
+},
+"Tonga": {
+"cca3": "TON",
+"ccn3": "776",
+"cca2": "to",
+"capital": [
+"Nuku'alofa"
+],
+"lang": [
+"English",
+"Tongan"
+],
+"cur": [
+"Tongan paʻanga (TOP)"
+],
+"area": 747,
+"native": [
+"Tonga",
+"Tonga"
+],
+"latlng": [
+-20,
+-175
+]
+},
+"Tuvalu": {
+"cca3": "TUV",
+"ccn3": "798",
+"cca2": "tv",
+"capital": [
+"Funafuti"
+],
+"lang": [
+"English",
+"Tuvaluan"
+],
+"cur": [
+"Australian dollar (AUD)",
+"Tuvaluan dollar (TVD)"
+],
+"area": 26,
+"native": [
+"Tuvalu",
+"Tuvalu"
+],
+"latlng": [
+-8,
+178
+]
+},
+"Vanuatu": {
+"cca3": "VUT",
+"ccn3": "548",
+"cca2": "vu",
+"capital": [
+"Port Vila"
+],
+"lang": [
+"Bislama",
+"English",
+"French"
+],
+"cur": [
+"Vanuatu vatu (VUV)"
+],
+"area": 12189,
+"native": [
+"Vanuatu",
+"Vanuatu",
+"Vanuatu"
+],
+"latlng": [
+-16,
+167
+]
+}
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96.0 76.0" width="96.0mm" height="76.0mm" class="map">
+<path d="M87.96,33.96 L82.83,39.35 L66.24,53.11 L51.04,73.00 L24.73,70.99 L8.04,65.67 L9.73,48.16 L15.75,30.16 L32.34,11.62 L53.99,3.00 L75.47,15.36 L87.96,33.96Z" fill="#fff" stroke="#000" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd"/>
+<circle cx="53.93" cy="39.68" r="1.1" fill="#fff" stroke="#000" stroke-width="0.25"/>
+<circle cx="53.93" cy="39.68" r="0.45" fill="#000"/>
+<text x="55.93" y="40.68" text-anchor="start" class="capital-label">Monaco</text>
+</svg>

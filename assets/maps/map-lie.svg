@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96.0 76.0" width="96.0mm" height="76.0mm" class="map">
+<path d="M42.42,3.00 L44.48,6.04 L48.30,9.58 L46.78,14.21 L47.78,17.13 L49.94,20.03 L51.88,24.65 L51.65,27.02 L49.40,32.02 L49.42,34.91 L56.18,38.90 L61.58,46.42 L63.89,54.91 L62.32,63.56 L56.05,71.51 L51.38,73.00 L37.49,70.68 L32.37,69.17 L32.11,66.06 L34.77,62.50 L38.25,58.93 L40.41,54.49 L40.30,47.39 L38.40,42.06 L35.94,37.26 L34.21,31.76 L34.75,20.56 L38.67,9.34 L42.42,3.00Z" fill="#fff" stroke="#000" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd"/>
+<circle cx="41.39" cy="45.94" r="1.1" fill="#fff" stroke="#000" stroke-width="0.25"/>
+<circle cx="41.39" cy="45.94" r="0.45" fill="#000"/>
+<text x="43.39" y="46.94" text-anchor="start" class="capital-label">Vaduz</text>
+</svg>

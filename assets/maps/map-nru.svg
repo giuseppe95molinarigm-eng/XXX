@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96.0 76.0" width="96.0mm" height="76.0mm" class="map">
+<path d="M55.09,3.00 L74.32,11.62 L77.40,34.06 L69.47,58.54 L55.09,73.00 L29.33,68.09 L18.60,42.22 L25.97,14.13 L55.09,3.00Z" fill="#fff" stroke="#000" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd"/>
+<circle cx="34.55" cy="68.27" r="1.1" fill="#fff" stroke="#000" stroke-width="0.25"/>
+<circle cx="34.55" cy="68.27" r="0.45" fill="#000"/>
+<text x="36.55" y="69.27" text-anchor="start" class="capital-label">Yaren</text>
+</svg>

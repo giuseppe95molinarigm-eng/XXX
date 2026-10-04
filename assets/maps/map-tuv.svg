@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96.0 76.0" width="96.0mm" height="76.0mm" class="map">
+<path d="" fill="#fff" stroke="#000" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd"/>
+<circle cx="83.20" cy="72.78" r="0.55" fill="#fff" stroke="#000" stroke-width="0.25"/>
+<circle cx="70.31" cy="55.89" r="0.55" fill="#fff" stroke="#000" stroke-width="0.25"/>
+<circle cx="60.56" cy="36.55" r="0.55" fill="#fff" stroke="#000" stroke-width="0.25"/>
+<circle cx="54.95" cy="47.36" r="0.55" fill="#fff" stroke="#000" stroke-width="0.25"/>
+<circle cx="35.60" cy="11.11" r="0.55" fill="#fff" stroke="#000" stroke-width="0.25"/>
+<circle cx="32.01" cy="31.31" r="0.55" fill="#fff" stroke="#000" stroke-width="0.25"/>
+<circle cx="16.41" cy="14.52" r="0.55" fill="#fff" stroke="#000" stroke-width="0.25"/>
+<circle cx="12.94" cy="3.29" r="0.55" fill="#fff" stroke="#000" stroke-width="0.25"/>
+<circle cx="70.50" cy="56.05" r="1.1" fill="#fff" stroke="#000" stroke-width="0.25"/>
+<circle cx="70.50" cy="56.05" r="0.45" fill="#000"/>
+<text x="68.50" y="57.05" text-anchor="end" class="capital-label">Funafuti</text>
+</svg>

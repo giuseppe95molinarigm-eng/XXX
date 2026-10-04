@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96.0 76.0" width="96.0mm" height="76.0mm" class="map">
+<path d="M82.43,29.47 L88.60,30.86 L92.03,32.13 L93.00,33.64 L90.14,38.38 L85.92,43.42 L80.84,47.45 L75.27,49.08 L69.15,49.76 L64.31,51.60 L55.64,57.50 L53.50,59.67 L52.21,60.22 L49.02,60.70 L42.97,60.58 L39.98,59.82 L38.71,58.35 L36.59,54.97 L31.45,52.62 L25.25,51.19 L19.95,50.62 L9.17,50.90 L4.80,49.84 L3.00,46.43 L4.07,42.54 L11.47,32.13 L12.54,27.47 L13.77,24.84 L16.56,22.02 L19.85,20.04 L22.23,19.65 L27.63,20.35 L33.20,19.65 L40.10,16.37 L43.79,15.30 L50.39,15.68 L56.75,17.74 L75.41,27.00 L82.43,29.47Z" fill="#fff" stroke="#000" stroke-width="0.3" stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd"/>
+<circle cx="55.93" cy="53.15" r="1.1" fill="#fff" stroke="#000" stroke-width="0.25"/>
+<circle cx="55.93" cy="53.15" r="0.45" fill="#000"/>
+<text x="57.93" y="54.15" text-anchor="start" class="capital-label">Singapore</text>
+</svg>
