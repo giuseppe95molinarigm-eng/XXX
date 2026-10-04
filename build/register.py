@@ -98,8 +98,8 @@ def density_html(spec, fs, lh, reg_start, folios, est=EST):
     intro = ("How to use this register: find the country, then color the flag in the order given. "
              "Left and right are as you look at the page. Colors are in small capitals.")
     tpl = f'''<template id="tpl"><section class="page reg verso"><div class="live">
-      <div class="runhead label">Color Register</div>
-      <div class="intro-block"><h1>Color Register</h1><p class="intro">{intro}</p></div>
+      <div class="runhead label">A Register of Colors</div>
+      <div class="intro-block"><h1>A Register of Colors</h1><p class="intro">{intro}</p></div>
       <div class="cols"></div></div><div class="folio"></div></section></template>'''
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Color register density test</title>
 <link rel="stylesheet" href="../build/book.css"><style>{CSS}</style></head>
@@ -124,7 +124,7 @@ def specimen_html(spec, folios):
     half = 5
     pages = []
     for i, chunk in enumerate((items[:half], items[half:])):
-        head = (f'''<h2>Color Register · ten specimen entries</h2>
+        head = (f'''<h2>A Register of Colors · ten specimens</h2>
           <p class="sub">For approval before the other 185 entries are written. Each entry follows the same pattern:</p><ol>{pattern}</ol>''' if i == 0 else "")
         pages.append(f'''<section class="page spec recto"><div class="proposal-tag">Phase 1 · for approval</div><div class="live">{head}{"".join(chunk)}</div><div class="folio">{i + 1}</div></section>''')
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Color register specimens</title>
@@ -135,7 +135,7 @@ if __name__ == "__main__":
     spec = json.load(open(os.path.join(ROOT, "data/color-register-specimens.json")))
     rows = build_map()
     folios = {r[3]: r[0] for r in rows if r[2] == "country page"}
-    reg_start = next(r[0] for r in rows if r[3].startswith("Color register"))
+    reg_start = next(r[0] for r in rows if r[3].startswith("A Register of Colors"))
     open(os.path.join(OUT, "specimens.html"), "w").write(specimen_html(spec, folios))
     for fs, lh, tag in (("8.5pt", "10.4pt", "8.5pt"), ("9pt", "11pt", "9pt")):
         open(os.path.join(OUT, f"density-test-{tag}.html"), "w").write(density_html(spec, fs, lh, reg_start, folios))

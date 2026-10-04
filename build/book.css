@@ -57,7 +57,7 @@ body.print .page { background: #fff; }
 .dot-arrow { align-self: flex-start; margin-top: 1.6mm; font-size: 7pt; }
 .register-ref { left: 0; font-size: 7pt; font-style: italic; }
 
-.facts { top: 118mm; left: 0; width: 72mm; }
+.facts { top: 116mm; left: 0; width: 72mm; }
 .fact { display: grid; grid-template-columns: 5.5mm 21mm 1fr; align-items: baseline; height: 10mm;
         border-bottom: var(--hair) solid var(--ink); padding-top: 3mm; }
 .fact:first-child { border-top: var(--hair) solid var(--ink); }
@@ -65,29 +65,30 @@ body.print .page { background: #fff; }
 .fact .k { font-size: 6.4pt; letter-spacing: .14em; text-transform: uppercase; font-weight: 500; }
 .fact .v { font-size: 10pt; line-height: 1.1; }
 .fact .v.long { font-size: 9pt; }
-.notes { left: 0; width: 72mm; top: 173mm; font-size: 7pt; line-height: 1.25; font-style: italic; }
+.notes { left: 0; width: 72mm; top: 170mm; font-size: 7pt; line-height: 1.25; font-style: italic; }
 .notes p { margin: 0 0 1.2mm; padding-left: 2.4mm; text-indent: -2.4mm; }
 .notes p::before { content: "* "; font-style: normal; }
 
 /* right column */
-.map { top: 40mm; left: 80mm; width: 96mm; height: 80mm; }
+.map { top: 40mm; left: 80mm; width: 96mm; height: 76mm; }
 .map svg { width: 100%; height: 100%; display: block; }
 .map text.capital-label { font-family: "EB Garamond", serif; font-size: 2.6px; font-style: italic; }
 .map text.inset-label { font-family: "EB Garamond", serif; font-size: 2.1px; letter-spacing: .12em; text-transform: uppercase; }
-.plate { top: 126mm; left: 80mm; width: 96mm; height: 72mm; border: var(--rule) solid var(--ink); padding: 1.2mm; }
+.plate { top: 120mm; left: 80mm; width: 96mm; height: 66mm; border: var(--rule) solid var(--ink); padding: 1.2mm; }
 .plate .inner { width: 100%; height: 100%; border: var(--hair) solid var(--ink); display: flex; align-items: center; justify-content: center; padding: 2.2mm; }
 .plate svg { width: 100%; height: 100%; display: block; }
-.caption { top: 199.6mm; left: 80mm; width: 96mm; text-align: center; text-wrap: balance; font-style: italic; font-size: 9pt; line-height: 1.25; }
+.caption { top: 187.6mm; left: 80mm; width: 96mm; text-align: center; text-wrap: balance; font-style: italic; font-size: 9pt; line-height: 1.25; }
 
 /* bottom band: journal */
-.photo { top: 214mm; left: 0; width: 72mm; height: 53mm; border: var(--hair) solid var(--ink); }
+.photo { top: 203mm; left: 0; width: 90mm; height: 64mm; border: var(--hair) solid var(--ink); }
 .photo .tape { position: absolute; top: -3mm; left: 50%; width: 22mm; height: 7mm; margin-left: -11mm;
                border: var(--hair) solid var(--ink); background: inherit; transform: rotate(-3deg); }
 body:not(.print) .photo .tape { background: var(--paper); }
 body.print .photo .tape { background: #fff; }
+.photo .size { position: absolute; bottom: 2.4mm; left: 0; right: 0; text-align: center; font-size: 7pt; font-style: italic; }
 .photo .inside { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2mm; }
 .photo svg { width: 7mm; height: 6mm; }
-.visit { top: 214mm; left: 80mm; width: 96mm; height: 53mm; border: var(--rule) solid var(--ink); padding: 1.2mm; }
+.visit { top: 203mm; left: 98mm; width: 78mm; height: 64mm; border: var(--rule) solid var(--ink); padding: 1.2mm; }
 .visit .inner { position: relative; height: 100%; border: var(--hair) solid var(--ink); padding: 4.5mm 5mm; }
 .visit h4 { margin: 0 0 4.6mm; font-family: "Cormorant Garamond", serif; font-weight: 600; font-size: 12pt; letter-spacing: .14em; text-transform: uppercase; }
 .visit .row { font-size: 9pt; font-style: italic; display: flex; align-items: flex-end; gap: 1.5mm; height: 7.6mm; }

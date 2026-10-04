@@ -2,7 +2,11 @@
 
 Repository di lavoro di ElitePublishing per la Fase 1 (pianificazione e direzione visiva). Il materiale per il cliente è in American English; il report interno è in italiano: **`REPORT-INTERNO-fase1.md`**.
 
-## Consegna al cliente (PDF)
+## File finale di consegna
+- `delivery/THE-WORLD-Phase1-Delivery.pdf`: tutto in un unico PDF di 28 pagine, con indice e segnalibri.
+- `delivery/THE-WORLD-Phase1-Source-Package.zip`: PDF singoli e sorgenti per il cliente, senza documenti interni.
+
+## Consegna al cliente (PDF singoli)
 | File | Contenuto |
 |---|---|
 | `client/THE-WORLD-Phase1-revision-notes.pdf` | Cosa contiene la consegna, 12 decisioni richieste, informazioni mancanti, voci di costo, fasi future |
@@ -12,7 +16,8 @@ Repository di lavoro di ElitePublishing per la Fase 1 (pianificazione e direzion
 | `sample-pages/THE-WORLD-spread-preview.pdf` | Anteprima della doppia pagina affrontata (margine di cucitura) |
 | `color-register/THE-WORLD-color-register-10-specimens.pdf` | 10 voci campione del registro colori |
 | `color-register/THE-WORLD-color-register-density-test-*.pdf` | Test di densità: 8,5 pt (5 pp.), 9 pt (6 pp.), 8,5 pt con budget di lunghezza (4 pp.) |
-| `page-map/THE-WORLD-page-map-PROPOSAL.pdf` | Page map provvisorio verso 288 pagine |
+| `page-map/THE-WORLD-page-map-PROPOSAL.pdf` | Page map a 288 pagine (Blueprint + Decisions Log) |
+| `client/THE-WORLD-front-matter-text-revisions.pdf` | Correzioni ai testi iniziali del Blueprint |
 
 ## Sorgenti
 - `assets/illustrations/vector/`: illustrazioni vettoriali (potrace). I raster AI originali sono in `source-ai-raster/`; prompt e impostazioni in `prompts.json`.

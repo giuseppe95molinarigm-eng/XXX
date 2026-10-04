@@ -70,7 +70,7 @@ def page_html(c, side, register_page, tag=True):
     <div class="abs label flag-label">Color the flag</div>
     <div class="abs flag" style="width:{fw:.2f}mm;height:{fh:.2f}mm">{flag}</div>
     <div class="abs dots" style="top:{dots_top:.2f}mm">{dots}</div>
-    <div class="abs register-ref" style="top:{dots_top + 12.5:.2f}mm">Which part takes which color: see the Color Register, page {register_page}.</div>
+    <div class="abs register-ref" style="top:{dots_top + 12.5:.2f}mm">Which part takes which color: see A Register of Colors, page {register_page}.</div>
 
     <div class="abs facts">{facts}</div>
     <div class="abs notes">{notes}</div>
@@ -79,12 +79,12 @@ def page_html(c, side, register_page, tag=True):
     <div class="abs plate"><div class="inner">{svg_file(f"assets/illustrations/vector/{c['illustration']}.svg")}</div></div>
     <div class="abs caption">{'<br>'.join(x if x.endswith('.') else x + '.' for x in c['caption'].split('. '))}</div>
 
-    <div class="abs photo"><div class="tape"></div><div class="inside">{ICONS['camera']}<span class="label">Tape your photo here</span></div></div>
+    <div class="abs photo"><div class="tape"></div><div class="inside">{ICONS['camera']}<span class="label">Tape your photo here</span></div><div class="size">Takes a 9 × 13 cm print cut in half, or an instant mini print</div></div>
     <div class="abs visit"><div class="inner">
       <h4>My Visit</h4>
       <div class="row">Date I visited:<span class="line short"></span>/<span class="line short"></span>/<span class="line year"></span></div>
-      <div class="row">With:<span class="line" style="margin-right:22mm"></span></div>
-      <div class="row">Note:<span class="line" style="margin-right:22mm"></span></div>
+      <div class="row">Note:<span class="line"></span></div>
+      <div class="row"><span class="line" style="margin-right:22mm"></span></div>
       <div class="row"><span class="line" style="margin-right:22mm"></span></div>
       {STAMP}
     </div></div>
@@ -111,7 +111,7 @@ if __name__ == "__main__":
     # pair two real samples as they would face each other: USA (206, verso) beside a recto page.
     # We pair Japan (92, verso) with Italy rendered as a recto to judge the gutter on both sides.
     left = page_html(cs["JPN"], "verso", data["register_page"], tag=False)
-    right_c = dict(cs["ITA"]); right_c["page"] = 93
+    right_c = dict(cs["ITA"]); right_c["page"] = cs["JPN"]["page"] + 1
     right = page_html(right_c, "recto", data["register_page"], tag=False)
     spread_css = """@page { size: 420mm 297mm; margin: 0; }
       .spread { width: 420mm; height: 297mm; display: flex; position: relative; }
@@ -121,6 +121,6 @@ if __name__ == "__main__":
                      background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.10) 50%, rgba(0,0,0,0) 100%); }
       .spread-note { position: absolute; bottom: 2.5mm; left: 0; right: 0; text-align: center; font-size: 7pt; color: #8a1c1c; }"""
     spread = f'''<div class="spread">{left}{right}<div class="gutter-zone"></div><div class="gutter"></div>
-      <div class="spread-note">Facing-page preview only: shaded band = approx. 4 mm each side lost in a sewn case binding (to confirm on the printer's blank dummy). The rule stays one country per page; p. 93 is a stand-in for whichever country follows Japan.</div></div>'''
+      <div class="spread-note">Facing-page preview only: shaded band = approx. 4 mm each side lost in a sewn case binding (to confirm on the printer's blank dummy). The rule stays one country per page; the right-hand page is Italy used as a stand-in for the country that follows Japan.</div></div>'''
     open(os.path.join(OUT, "spread-preview.html"), "w").write(doc(spread, spread_css))
     print("ok")

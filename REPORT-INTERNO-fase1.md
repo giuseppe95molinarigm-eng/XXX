@@ -22,7 +22,7 @@ La consegna dell'8 settembre è in revisione (richiesta dell'11 settembre). Ques
 
   Sono usate come struttura di partenza, non come grafica approvata. Contengono dati non 2025 e la riga "National animal", ora rimossa.
 
-**Citate ma mancanti**
+**Citate ma mancanti** (situazione iniziale; vedi §6 per il Blueprint ricevuto dopo)
 - Chat privata (`Pasted text(20261004-101532).txt`).
 - Testo della richiesta di revisione dell'11/09.
 - `THE-WORLD-Editorial-Blueprint-Phase-1 (1).docx`, sia semplice sia annotato (commenti in blu).
@@ -135,3 +135,51 @@ Non si dichiara alcuna approvazione grafica precedente.
 
 ## 5. Come rigenerare
 Vedi `README.md`.
+
+---
+
+## 6. Aggiornamento dopo il Blueprint (4 ottobre, seconda sessione)
+
+Ricevuti `THE-WORLD-Editorial-Blueprint-Phase-1_1.docx`, con i commenti di Ranier in blu (#0070C0), e il testo dei commenti dell'11 settembre. La chat privata completa resta mancante.
+
+**Cosa chiarisce il Blueprint e cosa è stato applicato**
+- **Epigrafe (p. 6):** "A map shows the world as it is. What follows is the world as you found it." È la nostra alternativa, approvata da Ranier. Il suo "Love it!" è un commento e non fa parte del testo.
+- **Melville** ("It is not down in any map; true places never are.", *Moby-Dick*, 1851): spostato sulla pagina Departure (p. 27), prima dell'Europa.
+- **Page map:** ricostruito dal Blueprint (4 parti, 272 pagine) con le decisioni del Log applicate. Totale esatto 288 pagine, con solo 2 pagine di note flessibili prima del colophon.
+  - Tolti: One Hundred Places (−2) e metà del registro (−4).
+  - Aggiunti: bucket list per continente, una doppia pagina ciascuna (+12), Ledger da 2 a 4 pagine (+2), Top Five (+2), Favorite Memory (+2).
+  - Le achievement page sono assorbite negli spread Notes from the Continent.
+  - Inserite due pagine bianche di pausa.
+  - Ordine dei continenti come nel Blueprint: Europe, Africa, Asia, North America & the Caribbean, South America, Oceania.
+  - Nuovi numeri dei campioni: Italy 49, Egypt 95, Japan 156, United States 216, Brazil 226, Australia 242. Registro p. 278.
+- **Incoerenza segnalata:** il Blueprint mette Departure a p. 28 e l'Europa a p. 29, spezzando l'opener di due pagine (saggio a sinistra, tavola a destra). Ora la Parte III parte da p. 28.
+- **Riquadro foto:** il Blueprint lo dimensiona per una stampa 9×13, che però non entra nella pagina. Il riquadro ora è 90 × 64 mm, per una 9×13 tagliata a metà o una instant mini, con una riga che lo spiega. È tra le decisioni richieste al cliente.
+- **My Visit:** data e tre righe, come nel Blueprint. Tolta la riga "With:" che avevamo aggiunto.
+- **Pallini:** l'esempio del cliente nel Blueprint (sezione 4) li mostra a colori. Lo segnaliamo nella decisione n. 1: con interno solo nero servirebbe la quadricromia.
+- **585 disegni** = 195 vignette + 195 mappe + 195 bandiere. I campioni dimostrano che mappe e bandiere si producono da dati verificati: il lavoro dell'illustratore riguarda soprattutto le 195 vignette. Da usare nel preventivo delle fasi successive.
+- **Testi del front matter:** nuovo documento con le sole correzioni necessarie.
+  - Copyright: anno 2025 al posto di 2026, prassi ONU, credito UN WPP, "uncoated paper" finché Biotop non è confermato.
+  - Tre paragrafi del saggio "Before You Set Out", che citavano le cento righe e il registro "in words" e non nominavano le illustrazioni.
+  - The Symbols of This Book: cinque icone invece di sei.
+- **Nome del registro:** "A Register of Colors", come nel Blueprint.
+
+**Domande del cliente nel Blueprint ancora aperte**
+- Prezzo al pubblico 35–45 € (non è il costo di produzione).
+- Edizione economica oppure premium.
+- "Quale vende meglio".
+
+La risposta è già stata data in Decisions Required. Le previsioni di mercato restano fuori da questo ordine: le voci da raccogliere sono nella nota al cliente.
+
+## 7. File finale di consegna
+- `delivery/THE-WORLD-Phase1-Delivery.pdf`: 28 pagine, con indice e segnalibri. Contiene:
+  - nota di revisione;
+  - style guide;
+  - 6 pagine campione e lo spread;
+  - 10 voci campione del registro e il test a 4 pagine;
+  - page map;
+  - revisioni dei testi.
+- `delivery/THE-WORLD-Phase1-Source-Package.zip`: tutti i PDF singoli, SVG, font con licenze, template, `samples.json` e `page-map.csv`. Non contiene documenti interni (CSV delle fonti, report).
+
+**Prima della consegna, ricordare:**
+- Le aree marcate "TO VERIFY" nel CSV interno vanno controllate alla fonte. Lo stato "not print-ready" è dichiarato nel PDF.
+- Consegnare chiude la Fase 1 come ordine, ma le decisioni elencate restano in attesa della risposta del cliente.

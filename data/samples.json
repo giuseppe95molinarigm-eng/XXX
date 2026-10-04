@@ -1,68 +1,183 @@
 {
   "_note": "Printed text for the six Phase 1 sample pages. American English. Values and sources are traced in data/sample-data.csv. Page numbers come from the PROVISIONAL page map.",
-  "register_page": 262,
+  "register_page": 278,
   "countries": [
     {
-      "id": "ITA", "name": "Italy", "continent": "Europe", "page": 151,
-      "local": {"text": "Italia", "script": "latin", "translit": ""},
-      "flag": "it", "flag_colors": ["Green", "White", "Red"],
-      "facts": {"Capital": "Rome", "Population": "59.1 million", "Language": "Italian",
-                "Area": "302,068 km² (116,629 sq mi)", "Currency": "Euro (EUR)"},
+      "id": "ITA",
+      "name": "Italy",
+      "continent": "Europe",
+      "page": 49,
+      "local": {
+        "text": "Italia",
+        "script": "latin",
+        "translit": ""
+      },
+      "flag": "it",
+      "flag_colors": [
+        "Green",
+        "White",
+        "Red"
+      ],
+      "facts": {
+        "Capital": "Rome",
+        "Population": "59.1 million",
+        "Language": "Italian",
+        "Area": "302,068 km² (116,629 sq mi)",
+        "Currency": "Euro (EUR)"
+      },
       "illustration": "italy-colosseum",
       "caption": "The Colosseum, Rome.",
-      "notes": ["San Marino and Vatican City lie within Italy and are not part of its area."]
+      "notes": [
+        "San Marino and Vatican City lie within Italy and are not part of its area."
+      ]
     },
     {
-      "id": "JPN", "name": "Japan", "continent": "Asia", "page": 92,
-      "local": {"text": "日本", "script": "jp", "translit": "Nippon"},
-      "flag": "jp", "flag_colors": ["White", "Red"],
-      "facts": {"Capital": "Tokyo", "Population": "123.1 million", "Language": "Japanese",
-                "Area": "377,975 km² (145,937 sq mi)", "Currency": "Japanese yen (JPY)"},
+      "id": "JPN",
+      "name": "Japan",
+      "continent": "Asia",
+      "page": 156,
+      "local": {
+        "text": "日本",
+        "script": "jp",
+        "translit": "Nippon"
+      },
+      "flag": "jp",
+      "flag_colors": [
+        "White",
+        "Red"
+      ],
+      "facts": {
+        "Capital": "Tokyo",
+        "Population": "123.1 million",
+        "Language": "Japanese",
+        "Area": "377,975 km² (145,937 sq mi)",
+        "Currency": "Japanese yen (JPY)"
+      },
       "illustration": "japan-fuji-chureito",
       "caption": "Mount Fuji and the Chureito Pagoda.",
-      "notes": ["The area includes the southern Kuril Islands, administered by Russia and claimed by Japan; they are not drawn on this map.",
-                "Smaller remote islands are not shown at this scale."]
+      "notes": [
+        "The area includes the southern Kuril Islands, administered by Russia and claimed by Japan; they are not drawn on this map.",
+        "Smaller remote islands are not shown at this scale."
+      ]
     },
     {
-      "id": "USA", "name": "United States", "continent": "North America", "page": 206,
-      "local": {"text": "United States of America", "script": "formal", "translit": ""},
-      "flag": "us", "flag_colors": ["Blue", "White", "Red"],
-      "facts": {"Capital": "Washington, D.C.", "Population": "347.3 million", "Language": "English",
-                "Area": "9,833,517 km² (3,796,742 sq mi)", "Currency": "US dollar (USD)"},
+      "id": "USA",
+      "name": "United States",
+      "continent": "North America & the Caribbean",
+      "page": 216,
+      "local": {
+        "text": "United States of America",
+        "script": "formal",
+        "translit": ""
+      },
+      "flag": "us",
+      "flag_colors": [
+        "Blue",
+        "White",
+        "Red"
+      ],
+      "facts": {
+        "Capital": "Washington, D.C.",
+        "Population": "347.3 million",
+        "Language": "English",
+        "Area": "9,833,517 km² (3,796,742 sq mi)",
+        "Currency": "US dollar (USD)"
+      },
       "illustration": "usa-statue-of-liberty",
       "caption": "The Statue of Liberty, New York Harbor. The bald eagle is the national bird.",
-      "notes": ["Alaska and Hawaii are shown at different scales.",
-                "The area includes inland and coastal waters, not overseas territories."]
+      "notes": [
+        "Alaska and Hawaii are shown at different scales.",
+        "The area includes inland and coastal waters, not overseas territories."
+      ]
     },
     {
-      "id": "BRA", "name": "Brazil", "continent": "South America", "page": 238,
-      "local": {"text": "Brasil", "script": "latin", "translit": ""},
-      "flag": "br", "flag_colors": ["Green", "Yellow", "Blue", "White"],
-      "facts": {"Capital": "Brasília", "Population": "212.8 million", "Language": "Portuguese",
-                "Area": "8,509,380 km² (3,285,490 sq mi)", "Currency": "Brazilian real (BRL)"},
+      "id": "BRA",
+      "name": "Brazil",
+      "continent": "South America",
+      "page": 226,
+      "local": {
+        "text": "Brasil",
+        "script": "latin",
+        "translit": ""
+      },
+      "flag": "br",
+      "flag_colors": [
+        "Green",
+        "Yellow",
+        "Blue",
+        "White"
+      ],
+      "facts": {
+        "Capital": "Brasília",
+        "Population": "212.8 million",
+        "Language": "Portuguese",
+        "Area": "8,509,380 km² (3,285,490 sq mi)",
+        "Currency": "Brazilian real (BRL)"
+      },
       "illustration": "brazil-sugarloaf",
       "caption": "Sugarloaf Mountain, Rio de Janeiro. The rufous-bellied thrush is the national bird.",
-      "notes": ["Offshore islands, including Fernando de Noronha, are too small to show at this scale."]
+      "notes": [
+        "Offshore islands, including Fernando de Noronha, are too small to show at this scale."
+      ]
     },
     {
-      "id": "EGY", "name": "Egypt", "continent": "Africa", "page": 29,
-      "local": {"text": "مصر", "script": "ar", "translit": "Misr"},
-      "flag": "eg", "flag_colors": ["Red", "White", "Black", "Gold"],
-      "facts": {"Capital": "Cairo", "Population": "118.4 million", "Language": "Arabic",
-                "Area": "1,001,450 km² (386,662 sq mi)", "Currency": "Egyptian pound (EGP)"},
+      "id": "EGY",
+      "name": "Egypt",
+      "continent": "Africa",
+      "page": 95,
+      "local": {
+        "text": "مصر",
+        "script": "ar",
+        "translit": "Misr"
+      },
+      "flag": "eg",
+      "flag_colors": [
+        "Red",
+        "White",
+        "Black",
+        "Gold"
+      ],
+      "facts": {
+        "Capital": "Cairo",
+        "Population": "118.4 million",
+        "Language": "Arabic",
+        "Area": "1,001,450 km² (386,662 sq mi)",
+        "Currency": "Egyptian pound (EGP)"
+      },
       "illustration": "egypt-giza",
       "caption": "The Pyramids of Giza and the Great Sphinx.",
-      "notes": ["The Halaib Triangle, on the southern border, is administered by Egypt and claimed by Sudan."]
+      "notes": [
+        "The Halaib Triangle, on the southern border, is administered by Egypt and claimed by Sudan."
+      ]
     },
     {
-      "id": "AUS", "name": "Australia", "continent": "Oceania", "page": 214,
-      "local": {"text": "Commonwealth of Australia", "script": "formal", "translit": ""},
-      "flag": "au", "flag_colors": ["Blue", "White", "Red"],
-      "facts": {"Capital": "Canberra", "Population": "27.0 million", "Language": "English",
-                "Area": "7,688,287 km² (2,968,464 sq mi)", "Currency": "Australian dollar (AUD)"},
+      "id": "AUS",
+      "name": "Australia",
+      "continent": "Oceania",
+      "page": 242,
+      "local": {
+        "text": "Commonwealth of Australia",
+        "script": "formal",
+        "translit": ""
+      },
+      "flag": "au",
+      "flag_colors": [
+        "Blue",
+        "White",
+        "Red"
+      ],
+      "facts": {
+        "Capital": "Canberra",
+        "Population": "27.0 million",
+        "Language": "English",
+        "Area": "7,688,287 km² (2,968,464 sq mi)",
+        "Currency": "Australian dollar (AUD)"
+      },
       "illustration": "australia-opera-house",
       "caption": "Sydney Opera House.",
-      "notes": ["The area covers the mainland, Tasmania and nearby islands, not the external territories."]
+      "notes": [
+        "The area covers the mainland, Tasmania and nearby islands, not the external territories."
+      ]
     }
   ]
 }

@@ -116,23 +116,23 @@ def build():
         <div><small>Fact values<br>EB Garamond 10 pt (9 pt when longer than 26 characters)</small><span style="font-size:10pt">302,068 km² (116,629 sq mi)</span></div>
         <div><small>Caption<br>EB Garamond Italic 9 pt, centered, one sentence per line</small><span style="font-style:italic;font-size:9pt">The Statue of Liberty, New York Harbor.<br>The bald eagle is the national bird.</span></div>
         <div><small>Notes<br>EB Garamond Italic 7 pt, asterisk</small><span style="font-style:italic;font-size:7pt">* Alaska and Hawaii are shown at different scales.</span></div>
-        <div><small>Color register<br>EB Garamond 8.5/10.4 pt, colors in small caps</small><span style="font-size:8.5pt"><b style="letter-spacing:.06em">JAPAN</b> A <span style="font-variant-caps:all-small-caps">white</span> flag with one <span style="font-variant-caps:all-small-caps">red</span> circle in the exact middle.</span></div>
+        <div><small>A Register of Colors<br>EB Garamond 8.5/10.4 pt, colors in small caps</small><span style="font-size:8.5pt"><b style="letter-spacing:.06em">JAPAN</b> A <span style="font-variant-caps:all-small-caps">white</span> flag with one <span style="font-variant-caps:all-small-caps">red</span> circle in the exact middle.</span></div>
       </div>
       <p class="note">Minimum size anywhere in the interior: 7 pt, except the 5.6 pt color names under the flag dots (all caps, tracked). These are the first thing to check on the press proof.</p>'''))
 
     mini = '''<div class="mini">
         <div style="left:6.86mm;top:4mm;width:50.29mm;height:10mm">name + own-language name</div>
         <div style="left:6.86mm;top:15.4mm;width:20.6mm;height:21.5mm">flag 72 × 48 max<br>+ dots</div>
-        <div style="left:29.7mm;top:15.4mm;width:27.4mm;height:22.9mm">map 96 × 80</div>
+        <div style="left:29.7mm;top:15.4mm;width:27.4mm;height:21.7mm">map 96 × 76</div>
         <div style="left:6.86mm;top:37.7mm;width:20.6mm;height:14.3mm">five facts</div>
-        <div style="left:29.7mm;top:40mm;width:27.4mm;height:20.6mm">illustration plate 96 × 72</div>
+        <div style="left:29.7mm;top:38.3mm;width:27.4mm;height:18.9mm">illustration plate 96 × 66</div>
         <div style="left:6.86mm;top:53.4mm;width:20.6mm;height:6mm">notes</div>
-        <div style="left:6.86mm;top:65.1mm;width:20.6mm;height:15.1mm">photo</div>
-        <div style="left:29.7mm;top:65.1mm;width:27.4mm;height:15.1mm">my visit</div></div>'''
+        <div style="left:6.86mm;top:62mm;width:25.7mm;height:18.3mm">photo 90 × 64</div>
+        <div style="left:34.6mm;top:62mm;width:22.3mm;height:18.3mm">my visit 78 × 64</div></div>'''
     p.append(page(3, f'''
       <h2>4 · Page grid and margins</h2>
       <div class="two"><div>
-      <p>A4 portrait, 210 × 297 mm, one country per page. Two columns inside a live area of 176 × 267 mm: a 72 mm column for the flag and the facts, an 8 mm gutter, and a 96 mm column for the map and the illustration. The journal band (photo and <i>My Visit</i>) closes every page at the same height.</p>
+      <p>A4 portrait, 210 × 297 mm, one country per page. Two columns inside a live area of 176 × 267 mm: a 72 mm column for the flag and the facts, an 8 mm gutter, and a 96 mm column for the map and the illustration. The journal band closes every page at the same height: the taped photo frame (90 × 64 mm) and <i>My Visit</i> (date, three ruled lines, the VISITED stamp), as in the Blueprint.</p><p><b>Photo frame.</b> The Blueprint sizes the frame for a standard 9 × 13 cm print. A whole 9 × 13 print (89 × 127 mm) cannot fit on the page beside the other elements, so the frame takes a 9 × 13 print cut in half, or an instant mini print, and says so in one small line. <span class="tag">your decision</span></p>
       <table><tr><th>Margin</th><th>Value</th><th></th></tr>
       <tr><td>Inner (binding side)</td><td>20 mm</td><td>provisional</td></tr>
       <tr><td>Outer</td><td>14 mm</td><td>provisional</td></tr>
@@ -156,20 +156,20 @@ def build():
       <h2>6 · Flags</h2>
       <p>Every flag is drawn from its official construction at its official proportions (2:3 for Italy, 10:19 for the United States, 1:2 for Australia, 7:10 for Brazil), fitted inside a 72 × 48 mm box from the top left. Outlines are vector, derived from the construction drawings and checked against the official specification; for Australia, all six star positions were checked against the Flags Act 1953. Very small details (Brazil's 27 stars, the Egyptian eagle) are kept at the official size rather than enlarged.</p>
       <h3>The color dots: an issue to decide <span class="tag">your decision</span></h3>
-      <p>The Decisions Log settles colored dots beneath each flag, in the flag's reading order. But the interior is specified in one color, black. Printed in black only, a dot cannot show its color. Three ways to keep the idea without adding color pages or changing the print budget:</p>
+      <p>The Decisions Log settles colored dots beneath each flag, in the flag's reading order. But the interior is specified in one color, black. Printed in black only, a dot cannot show its color. Your example in the Blueprint (section 4) shows the dots printed in color. Three ways to keep the idea:</p>
       <div class="dotsdemo">
         <div><b>A · Outline dots with color names</b> (recommended)<div class="row"><span class="d"><i></i>Green</span><span class="d"><i></i>White</span><span class="d"><i></i>Red</span></div>The reader colors the dots first and uses them as a key. Works in black, stays an instruction. Used on the six samples.</div>
         <div><b>B · Names only</b><div class="row" style="font-size:7.5pt;letter-spacing:.12em">GREEN · WHITE · RED</div>Cleanest and shortest, but loses the visual "palette" moment the dots were chosen for.</div>
         <div><b>C · Printed color dots</b><div class="row"><span class="d"><i style="background:#009246"></i>Green</span><span class="d"><i style="background:#fff"></i>White</span><span class="d"><i style="background:#ce2b37"></i>Red</span></div>Needs four-color printing on every country page: a different, more expensive book. Not in the RFQ v2 specification.</div>
       </div>
-      <p><b>Reading order</b> (proposed, applied on the samples): the field and the stripes first, as you read them, left to right and top to bottom; then the emblem. Italy: green, white, red. Egypt: red, white, black, then gold for the eagle. Under the dots, one line points to the Color Register, where the arrangement is explained in words.</p>
+      <p><b>Reading order</b> (proposed, applied on the samples): the field and the stripes first, as you read them, left to right and top to bottom; then the emblem. Italy: green, white, red. Egypt: red, white, black, then gold for the eagle. Under the dots, one line points to A Register of Colors, where the arrangement is explained in words.</p>
       <h2>7 · Maps</h2>
-      <p>Source: Natural Earth 1:10m (public domain), drawn as vector outlines in an equal-area projection centered on each country, inside a 96 × 80 mm frame. Coastlines are generalized for the page (detail under about 0.1 mm is removed; islands under about 0.35 mm² at print size are dropped, with a note when this matters). Capitals are marked with a ringed dot and set in italics. Distant parts get labeled inset boxes at their own scale, with a note (Alaska and Hawaii; the Ryukyu Islands).</p>
+      <p>Source: Natural Earth 1:10m (public domain), drawn as vector outlines in an equal-area projection centered on each country, inside a 96 × 76 mm frame. Coastlines are generalized for the page (detail under about 0.1 mm is removed; islands under about 0.35 mm² at print size are dropped, with a note when this matters). Capitals are marked with a ringed dot and set in italics. Distant parts get labeled inset boxes at their own scale, with a note (Alaska and Hawaii; the Ryukyu Islands).</p>
       <p><b>Borders.</b> Natural Earth draws de facto lines. Where these differ from United Nations treatment, or where a dispute affects the area figure, the page carries a short factual note (Japan: southern Kuril Islands; Egypt: Halaib Triangle). Before print, each map is checked against the UN Geospatial Information Section maps.</p>'''))
 
     p.append(page(5, f'''
       <h2>8 · Illustrations and captions</h2>
-      <p>Every illustration sits in the same double-ruled plate, 96 × 72 mm, like an engraved plate in an old atlas. The frame gives every subject the same weight on the page, whatever its shape, and keeps the composition tidy where a scene runs to the edge.</p>
+      <p>Every illustration sits in the same double-ruled plate, 96 × 66 mm, like an engraved plate in an old atlas. The frame gives every subject the same weight on the page, whatever its shape, and keeps the composition tidy where a scene runs to the edge.</p>
       <p><b>Subject rule (settled):</b> a landmark of international standing where one exists; otherwise the officially designated national animal. Nothing is invented to fill space. Where a country has an officially designated animal and the landmark is drawn, the caption names the animal in a second short sentence.</p>
       <p><b>Caption:</b> one or two short sentences, one per line, 9 pt italic, centered. On the samples the longest is Brazil's (two lines); that is the maximum we recommend.</p>
       <p><b>How the samples were made:</b> AI-assisted line art for the subject only (never for maps, borders or flags), generated against a single style reference so all six share one line weight, then cleaned up and converted to true vector paths. AI drawings still contain architectural simplifications, and in production each one gets an illustrator's correction pass against photo references. The raster originals are kept for reference; the pages use the vector files.</p>

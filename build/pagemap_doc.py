@@ -4,15 +4,11 @@ sys.path.insert(0, os.path.dirname(__file__))
 from pagemap import CONTINENTS, build as build_map
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-COL = {"front matter": "#1f2a44", "front matter (flexible)": "#8d93a3", "continent": "#b8975a",
-       "country page": "#e9e1cf", "flexible": "#ffffff", "back matter": "#5d6b57", "UNALLOCATED": "#ffffff"}
+COL = {"front matter": "#1f2a44", "journal": "#5d6b57", "pacing": "#ffffff", "continent": "#b8975a",
+       "country page": "#e9e1cf", "register": "#8a1c1c", "flexible": "#cfd6e4"}
 
 def rows_full():
-    rows = build_map()
-    for i in range(288 - len(rows)):
-        n = len(rows) + 1
-        rows.append([n, "recto" if n % 2 else "verso", "UNALLOCATED", "To reconcile with the Blueprint", ""])
-    return rows
+    return build_map()
 
 def sections(rows):
     out, cur = [], None
@@ -31,8 +27,7 @@ def html():
     cells = []
     for r in rows:
         border = "2px solid #8a1c1c" if r[3] in samples else ".3pt solid #999"
-        pat = ("background: repeating-linear-gradient(45deg,#fff 0 1.2mm,#ddd 1.2mm 1.6mm);" if r[2] == "UNALLOCATED"
-               else f"background:{COL[r[2]]};")
+        pat = f"background:{COL[r[2]]};"
         cells.append(f'<div class="c" style="{pat}border:{border}" title="{r[0]} {r[3]}"><span>{r[0]}</span></div>')
     table = []
     for s in sections(rows):
@@ -46,8 +41,7 @@ def html():
     counts = {}
     for r in rows:
         counts[r[2]] = counts.get(r[2], 0) + 1
-    legend = "".join(f'<span><i style="background:{COL[k]}"></i>{k} ({counts.get(k, 0)})</span>' for k in COL if k != "UNALLOCATED")
-    legend += f'<span><i style="background:repeating-linear-gradient(45deg,#fff 0 1mm,#ddd 1mm 1.4mm)"></i>unallocated ({counts.get("UNALLOCATED", 0)})</span>'
+    legend = "".join(f'<span><i style="background:{COL[k]}"></i>{k} ({counts.get(k, 0)})</span>' for k in COL)
     css = """
     .pm .live { font-size: 8.5pt; line-height: 1.3; }
     .pm h1 { font-family: "Cormorant Garamond"; font-weight: 600; font-size: 24pt; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1mm; }
@@ -64,10 +58,10 @@ def html():
     """
     half = (len(table) + 1) // 2
     p1 = f'''<section class="page pm recto"><div class="proposal-tag">Proposal · not approved</div><div class="live">
-      <h1>Page Map · Proposal</h1>
-      <p class="lede">A new proposal, rebuilt from the Decisions Log and your reference images, because the Phase 1 Blueprint page map was not available to us for this revision. Nothing here is approved.</p>
-      <p><b>Working target:</b> 288 pages, 18 signatures of 16. <b>Structured content:</b> {counts.get("front matter",0)+counts.get("front matter (flexible)",0)+counts.get("continent",0)+counts.get("country page",0)+counts.get("back matter",0)} pages, plus {counts.get("flexible",0)} flexible pages used to start each continent on a right-hand page and each closing spread on a left-hand page. <b>{counts.get("UNALLOCATED",0)} pages are unallocated</b> and must be reconciled with the Blueprint, which reached 272 before the new sections were added.</p>
-      <p><b>Sample pages in this map:</b> {sample_list}. One country per page; continents in alphabetical order, countries alphabetical within each continent (UN M49 regions; the Americas split into North and South America).</p>
+      <h1>Page Map · 288 pages</h1>
+      <p class="lede">The Phase 1 Blueprint page map (272 pages, four parts) updated with every decision settled since. A proposal for your approval, not a final extent.</p>
+      <p><b>What changed against the Blueprint.</b> One Hundred Places removed (−2). Register of Colors cut from 8 to 4 pages (−4). A bucket list of 15 experiences for every continent, one spread each (+12). The achievement page absorbed into each continent's closing spread, at no page cost. Travel ledger expanded from 2 to 4 pages (+2); My Top Five (+2) and one Favorite Memory spread (+2) added; Where I Go Next keeps the reader's list and adds a planning block. Two pacing blanks keep Part III opening on a spread and Part IV opening on a right-hand page; two flexible notes pages before the colophon complete the eighteenth signature. The epigraph is your original line; the Melville quotation now sits alone on the Departure page before Europe.</p>
+      <p><b>Sample pages in this map:</b> {sample_list}. One country per page, atlas order of continents as in the Blueprint (Europe, Africa, Asia, North America &amp; the Caribbean, South America, Oceania), countries alphabetical within each continent.</p>
       <div class="legend">{legend}<span><i style="border:2px solid #8a1c1c"></i>Phase 1 sample</span></div>
       <div class="grid">{"".join(cells)}</div>
       <p style="font-size:7.5pt;font-style:italic">Each row is one 16-page signature. Odd numbers are right-hand pages.</p>
@@ -78,10 +72,10 @@ def html():
     p3 = f'''<section class="page pm recto"><div class="live">
       <table><tr><th>Pages</th><th>#</th><th>Content</th></tr>{"".join(table[half:])}</table>
       <h3 style="font-size:7.5pt;letter-spacing:.16em;text-transform:uppercase;margin:5mm 0 2mm">Open points</h3>
-      <p>1. Unallocated pages: options are (a) restore content from the Blueprint, (b) lined notes pages, or (c) reduce to 272 pages / 17 signatures if the 18 pages cannot be justified. Extent also moves the spine and the price.</p>
-      <p>2. Color register: our density test shows four pages hold all 195 entries only at 8.5 pt with a strict length budget per entry; at 9 pt it needs six pages. If the register grows, it takes pages from the unallocated pool.</p>
-      <p>3. Continent assignment of transcontinental countries (Russia in Europe; Türkiye, Cyprus, Georgia, Armenia, Azerbaijan, Kazakhstan in Asia) follows UN M49 and should be confirmed.</p>
-      <p>4. Country short names follow UN usage (Türkiye, Czechia, Côte d'Ivoire, Cabo Verde, Eswatini, Timor-Leste) with common American English for a few (United States, United Kingdom, Russia, Iran, Vietnam, Laos, Syria, South Korea, North Korea, Tanzania, Bolivia, Venezuela, Moldova, Micronesia, Palestine). The Holy See page needs one consistent naming rule (title "Holy See", with Vatican City State for the territory and its figures).</p>
+      <p>1. Color register: our density test shows four pages hold all 195 entries only at 8.5 pt with a length budget per entry; at 9 pt it needs six pages, which would replace the two notes pages and one more spread.</p>
+      <p>2. The Blueprint places the Departure page on p. 28 and Europe on p. 29, which would split the two-page continent opener across a turn. Here Part III begins on p. 28 so that each opener (essay left, title plate right) is a true spread.</p>
+      <p>3. Transcontinental countries follow UN M49 (Russia in Europe; Türkiye, Cyprus, Georgia, Armenia, Azerbaijan, Kazakhstan in Asia), explained on The World in Six Parts.</p>
+      <p>4. Country short names follow UN usage (Türkiye, Czechia, Côte d'Ivoire, Cabo Verde, Eswatini, Timor-Leste) with common American English for a few (United States, United Kingdom, Russia, Iran, Vietnam, Laos, Syria, South Korea, North Korea, Tanzania, Bolivia, Venezuela, Moldova, Micronesia, Palestine). The Holy See page is titled "Holy See", with Vatican City State for the territory and its figures.</p>
     </div><div class="folio">3</div></section>'''
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>THE WORLD page map proposal</title>
 <link rel="stylesheet" href="../build/book.css"><style>{css}</style></head><body class="screen-gap">{p1}{p2}{p3}</body></html>'''
